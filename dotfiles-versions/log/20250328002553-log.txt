@@ -1,0 +1,2127 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20250328002553 MESSAGE Installation started
+20250328002553 MESSAGE An existing ML4W Dotfiles installation detected.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20250328002553 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20250328002554 MESSAGE pacman-contrib is already installed.
+20250328002554 MESSAGE wget is already installed.
+20250328002554 MESSAGE zip is already installed.
+20250328002554 MESSAGE unzip is already installed.
+20250328002554 MESSAGE gum is already installed.
+20250328002554 MESSAGE rsync is already installed.
+20250328002554 MESSAGE git is already installed.
+20250328002554 MESSAGE figlet is already installed.
+20250328002554 MESSAGE sed is already installed.
+20250328002554 MESSAGE vim is already installed.
+20250328002555 MESSAGE xdg-user-dirs is already installed.
+20250328002555 MESSAGE man-pages is already installed.
+20250328002555 MESSAGE networkmanager is already installed.
+20250328002555 MESSAGE python-pip is already installed.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20250328002556 MESSAGE Update started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20250328002556 MESSAGE yay is installed
+20250328002556 MESSAGE paru is installed
+20250328002556 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20250328002557 MESSAGE Checking for rofi-lbonn-wayland
+20250328002557 MESSAGE Checking for hypridle-git
+20250328002557 MESSAGE Checking for hyprlock-git
+20250328002557 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20250328002557 MESSAGE hyprland is already installed.
+20250328002557 MESSAGE hyprpaper is already installed.
+20250328002557 MESSAGE hyprlock is already installed.
+20250328002558 MESSAGE hypridle is already installed.
+20250328002558 MESSAGE hyprpicker is already installed.
+20250328002558 MESSAGE noto-fonts is already installed.
+20250328002558 MESSAGE noto-fonts-emoji is already installed.
+20250328002558 MESSAGE noto-fonts-cjk is already installed.
+20250328002558 MESSAGE noto-fonts-extra is already installed.
+20250328002558 MESSAGE xdg-desktop-portal-hyprland is already installed.
+20250328002558 MESSAGE libnotify is already installed.
+20250328002558 MESSAGE Installing kitty...
+resolving dependencies...
+looking for conflicting packages...
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict. Remove kitty-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict
+20250328002559 ERROR kitty installation failed. Please install kitty manually.
+20250328002559 MESSAGE qt5-wayland is already installed.
+20250328002559 MESSAGE qt6-wayland is already installed.
+20250328002559 MESSAGE uwsm is already installed.
+20250328002559 MESSAGE fastfetch is already installed.
+20250328002559 MESSAGE xdg-desktop-portal-gtk is already installed.
+20250328002600 MESSAGE eza is already installed.
+20250328002600 MESSAGE python-pip is already installed.
+20250328002600 MESSAGE python-gobject is already installed.
+20250328002600 MESSAGE python-screeninfo is already installed.
+20250328002600 MESSAGE tumbler is already installed.
+20250328002600 MESSAGE brightnessctl is already installed.
+20250328002600 MESSAGE nm-connection-editor is already installed.
+20250328002600 MESSAGE network-manager-applet is already installed.
+20250328002600 MESSAGE gtk4 is already installed.
+20250328002600 MESSAGE libadwaita is already installed.
+20250328002601 MESSAGE fuse2 is already installed.
+20250328002601 MESSAGE imagemagick is already installed.
+20250328002601 MESSAGE jq is already installed.
+20250328002601 MESSAGE xclip is already installed.
+20250328002601 MESSAGE Installing kitty...
+resolving dependencies...
+looking for conflicting packages...
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict. Remove kitty-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict
+20250328002601 ERROR kitty installation failed. Please install kitty manually.
+20250328002602 MESSAGE neovim is already installed.
+20250328002602 MESSAGE htop is already installed.
+20250328002602 MESSAGE python-pywal is already installed.
+20250328002602 MESSAGE pinta is already installed.
+20250328002602 MESSAGE blueman is already installed.
+20250328002602 MESSAGE grim is already installed.
+20250328002602 MESSAGE slurp is already installed.
+20250328002602 MESSAGE cliphist is already installed.
+20250328002602 MESSAGE nwg-look is already installed.
+20250328002602 MESSAGE qt6ct is already installed.
+20250328002603 MESSAGE waybar is already installed.
+20250328002603 MESSAGE rofi-wayland is already installed.
+20250328002603 MESSAGE polkit-gnome is already installed.
+20250328002603 MESSAGE zsh is already installed.
+20250328002603 MESSAGE zsh-completions is already installed.
+20250328002603 MESSAGE fzf is already installed.
+20250328002603 MESSAGE pavucontrol is already installed.
+20250328002603 MESSAGE papirus-icon-theme is already installed.
+20250328002603 MESSAGE breeze is already installed.
+20250328002604 MESSAGE flatpak is already installed.
+20250328002604 MESSAGE swaync is already installed.
+20250328002604 MESSAGE gvfs is already installed.
+20250328002604 MESSAGE wlogout is already installed.
+20250328002604 MESSAGE hyprshade is already installed.
+20250328002604 MESSAGE Installing waypaper with custom script...
+Sync Explicit (1): waypaper-git-2.5.r7.g56b6607-1
+warning: waypaper-git-2.5.r7.g56b6607-1 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)               Old Version        New Version        Net Change
+
+chaotic-aur/waypaper-git  2.5.r7.g56b6607-1  2.5.r7.g56b6607-1    0.00 MiB
+
+Total Installed Size:  0.43 MiB
+Net Upgrade Size:      0.00 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+reinstalling waypaper-git...
+:: Running post-transaction hooks...
+(1/4) Arming ConditionNeedsUpdate...
+(2/4) Updating icon theme caches...
+(3/4) Checking which packages need to be rebuilt
+(4/4) Updating the desktop file MIME type cache...
+20250328002607 MESSAGE grimblast-git is already installed.
+20250328002607 MESSAGE Installing bibata-cursor-theme-bin with custom script...
+AUR Explicit (1): bibata-cursor-theme-bin-2.0.7-1
+:: [1mPKGBUILD up to date, skipping download: bibata-cursor-theme-bin[0m
+  1 bibata-cursor-theme-bin                  (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 bibata-cursor-theme-bin                  (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:26:09 AM EAT)
+==> Retrieving sources...
+  -> Found bibata-cursor-theme-2.0.7.tar.xz
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    bibata-cursor-theme-2.0.7.tar.xz ... Passed
+:: [1m(1/1) Parsing SRCINFO: bibata-cursor-theme-bin[0m
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:26:11 AM EAT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found bibata-cursor-theme-2.0.7.tar.xz
+==> Validating source files with sha256sums...
+    bibata-cursor-theme-2.0.7.tar.xz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting bibata-cursor-theme-2.0.7.tar.xz with bsdtar
+==> Sources are ready.
+ -> bibata-cursor-theme-bin-2.0.7-1 already made -- skipping build
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:26:16 AM EAT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)              New Version  Net Change
+
+bibata-cursor-theme-bin  2.0.7-1      321.65 MiB
+
+Total Installed Size:  321.65 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursor.theme exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/00000000000000020006000e7e9ffc3f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/00008160000006810000408080010102 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/028006030e0e7ebffc7f7070c0600140 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/03b6e0fcb3499374a867c041f52298f0 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/08e8e1c95fe2fc01f976f1e063a24ccd exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/1081e37283d90000800003c07f3ef6bf exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/14fef782d02440884392942c1120523 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/2870a09082c103050810ffdffffe0204 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/3085a0e285430894940527032f8b26df exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/3ecb610c1bf2410f44200f48c40d3599 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/4498f0e0c1937ffe01fd06f973665830 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/6407b0e94181790501fd1e167b474872 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/640fb0e74195791501fd1ed57b41487f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/9081237383d90e509aa00f00170e968f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/9d800788f1b08800ae810202380a0822 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/X_cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/a2a266d0498c3104214a47bd64ab0fc8 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/alias exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/all-scroll exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/b66166c04f8c3109214a4fbd64a50fc8 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bd_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_left_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_right_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/c7088f0f3e6c8088236ef8e1e3e70000 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cell exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/center_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/circle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/closedhand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/col-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/color-picker exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/context-menu exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/copy exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cross_reverse exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/crossed_circle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/crosshair exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/d9ce0ab605698f320427677b458ad60b exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/default exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/diamond_cross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-ask exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-copy exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-link exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-none exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd_no_drop exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dot_box_mask exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dotbox exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/down-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft_large exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft_small exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draped_box exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/e-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/e29285e634086352946a0e7090d73106 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ew-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fcf1c3c7cd4491d801f1e1c78f100000 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fd_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fleur exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/forbidden exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/grab exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/grabbing exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/h_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/hand1 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/hand2 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/help exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ibeam exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/icon exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr_help exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr_watch exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/link exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ll_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/lr_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/n-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ne-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nesw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/no-drop exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/not-allowed exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ns-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nwse-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/openhand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pencil exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pirate exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/plus exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointer exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointer-move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointing_hand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/progress exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/question_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/row-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/s-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_down_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_h_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_left_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_right_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_up_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_v_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/se-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size-hor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size-ver exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_all exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_bdiag exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_fdiag exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_hor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_ver exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/split_h exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/split_v exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/target exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/tcross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/text exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_left_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_left_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_right_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ul_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/up-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ur_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/v_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/vertical-text exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/w-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/wait exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/watch exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/wayland-cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/whats_this exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/x-cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/xterm exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/zoom-in exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/zoom-out exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/index.theme exists in filesystem
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/ian/.cache/yay/bibata-cursor-theme-bin/bibata-cursor-theme-bin-2.0.7-1-any.pkg.tar.zst] - exit status 1
+20250328002616 MESSAGE pacseek is already installed.
+20250328002616 MESSAGE otf-font-awesome is already installed.
+20250328002616 MESSAGE ttf-fira-sans is already installed.
+20250328002616 MESSAGE ttf-fira-code is already installed.
+20250328002616 MESSAGE ttf-firacode-nerd is already installed.
+20250328002617 MESSAGE ttf-dejavu is already installed.
+20250328002617 MESSAGE nwg-dock-hyprland is already installed.
+20250328002617 MESSAGE oh-my-posh-bin is already installed.
+20250328002617 MESSAGE checkupdates-with-aur is already installed.
+20250328002617 MESSAGE loupe is already installed.
+20250328002617 MESSAGE Installation of additional packages skipped.
+20250328002617 MESSAGE JetBrainsMono fonts is already installed
+20250328002617 MESSAGE FiraCode fonts is already installed
+Font directories:
+	/home/ian/.local/share/flatpak/exports/share/fonts
+	/var/lib/flatpak/exports/share/fonts
+	/home/ian/.local/share/fonts
+	/usr/local/share/fonts
+	/usr/share/fonts
+	/home/ian/.fonts
+	/home/ian/.local/share/fonts/CascadiaCove
+	/home/ian/.local/share/fonts/JetBrains
+	/home/ian/.local/share/fonts/JetBrainsMonoNerd
+	/home/ian/.local/share/fonts/MapleMono
+	/home/ian/.local/share/fonts/MaterialDesign
+	/home/ian/.local/share/fonts/Monocraft Nerd Font Book
+	/home/ian/.local/share/fonts/Mononoki
+	/home/ian/.local/share/fonts/NotoSansCJK
+	/usr/local/share/fonts/NotoSansCJK
+	/usr/share/fonts/Adwaita
+	/usr/share/fonts/FiraCode
+	/usr/share/fonts/NotoSansCJK
+	/usr/share/fonts/OTF
+	/usr/share/fonts/TTF
+	/usr/share/fonts/adobe-source-han-sans
+	/usr/share/fonts/awesome-terminal-fonts
+	/usr/share/fonts/cantarell
+	/usr/share/fonts/encodings
+	/usr/share/fonts/liberation
+	/usr/share/fonts/noto
+	/usr/share/fonts/noto-cjk
+	/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove
+	/usr/share/fonts/encodings/large
+/home/ian/.local/share/flatpak/exports/share/fonts: skipping, no such directory
+/var/lib/flatpak/exports/share/fonts: skipping, no such directory
+/home/ian/.local/share/fonts: skipping, existing cache is valid: 0 fonts, 8 dirs
+/home/ian/.local/share/fonts/CascadiaCove: skipping, existing cache is valid: 4 fonts, 1 dirs
+/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove: skipping, existing cache is valid: 2 fonts, 0 dirs
+/home/ian/.local/share/fonts/JetBrains: skipping, existing cache is valid: 2 fonts, 0 dirs
+/home/ian/.local/share/fonts/JetBrainsMonoNerd: skipping, existing cache is valid: 96 fonts, 0 dirs
+/home/ian/.local/share/fonts/MapleMono: skipping, existing cache is valid: 6 fonts, 0 dirs
+/home/ian/.local/share/fonts/MaterialDesign: skipping, existing cache is valid: 1 fonts, 0 dirs
+/home/ian/.local/share/fonts/Monocraft Nerd Font Book: skipping, existing cache is valid: 13 fonts, 0 dirs
+/home/ian/.local/share/fonts/Mononoki: skipping, existing cache is valid: 4 fonts, 0 dirs
+/home/ian/.local/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/local/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 12 dirs
+/usr/share/fonts/Adwaita: skipping, existing cache is valid: 24 fonts, 0 dirs
+/usr/share/fonts/FiraCode: skipping, existing cache is valid: 18 fonts, 0 dirs
+/usr/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/share/fonts/OTF: skipping, existing cache is valid: 3 fonts, 0 dirs
+/usr/share/fonts/TTF: skipping, existing cache is valid: 492 fonts, 0 dirs
+/usr/share/fonts/adobe-source-han-sans: skipping, existing cache is valid: 21 fonts, 0 dirs
+/usr/share/fonts/awesome-terminal-fonts: skipping, existing cache is valid: 4 fonts, 0 dirs
+/usr/share/fonts/cantarell: skipping, existing cache is valid: 6 fonts, 0 dirs
+/usr/share/fonts/encodings: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/encodings/large: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/liberation: skipping, existing cache is valid: 12 fonts, 0 dirs
+/usr/share/fonts/noto: skipping, existing cache is valid: 2137 fonts, 0 dirs
+/usr/share/fonts/noto-cjk: skipping, existing cache is valid: 80 fonts, 0 dirs
+/home/ian/.fonts: skipping, no such directory
+/home/ian/.local/share/fonts/CascadiaCove: skipping, looped directory detected
+/home/ian/.local/share/fonts/JetBrains: skipping, looped directory detected
+/home/ian/.local/share/fonts/JetBrainsMonoNerd: skipping, looped directory detected
+/home/ian/.local/share/fonts/MapleMono: skipping, looped directory detected
+/home/ian/.local/share/fonts/MaterialDesign: skipping, looped directory detected
+/home/ian/.local/share/fonts/Monocraft Nerd Font Book: skipping, looped directory detected
+/home/ian/.local/share/fonts/Mononoki: skipping, looped directory detected
+/home/ian/.local/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/local/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/share/fonts/Adwaita: skipping, looped directory detected
+/usr/share/fonts/FiraCode: skipping, looped directory detected
+/usr/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/share/fonts/OTF: skipping, looped directory detected
+/usr/share/fonts/TTF: skipping, looped directory detected
+/usr/share/fonts/adobe-source-han-sans: skipping, looped directory detected
+/usr/share/fonts/awesome-terminal-fonts: skipping, looped directory detected
+/usr/share/fonts/cantarell: skipping, looped directory detected
+/usr/share/fonts/encodings: skipping, looped directory detected
+/usr/share/fonts/liberation: skipping, looped directory detected
+/usr/share/fonts/noto: skipping, looped directory detected
+/usr/share/fonts/noto-cjk: skipping, looped directory detected
+/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove: skipping, looped directory detected
+/usr/share/fonts/encodings/large: skipping, looped directory detected
+/var/cache/fontconfig: not cleaning unwritable cache directory
+/home/ian/.cache/fontconfig: cleaning cache directory
+/home/ian/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+
+# ------------------------------------------------------
+# Diagnosis
+# ------------------------------------------------------
+
+20250328002617 SUCCESS Required commands checked
+
+# ------------------------------------------------------
+# Dotfiles
+# ------------------------------------------------------
+
+20250328002617 MESSAGE An existing ML4W Dotfiles folder has been detected: ~/dotfiles
+20250328002617 MESSAGE You can update your existing ML4W Dotfiles in dotfiles or install in a new folder.
+20250328002619 MESSAGE Update will be executed in ~/dotfiles
+
+# ------------------------------------------------------
+# Backup
+# ------------------------------------------------------
+
+20250328002624 SUCCESS Current backup archived in /home/ian/.ml4w-hyprland/archive/20250328002619
+20250328002624 SUCCESS Backup of /home/ian/dotfiles created in /home/ian/.ml4w-hyprland/backup
+20250328002624 SUCCESS Backup created in /home/ian/.ml4w-hyprland/backup
+
+# ------------------------------------------------------
+# Preparation
+# ------------------------------------------------------
+
+20250328002624 MESSAGE Preparing temporary folders for the installation.
+20250328002624 SUCCESS The folder /home/ian/.ml4w-hyprland/2.9.8.2 already exists from previous installations.
+20250328002624 SUCCESS Clean build prepared for the installation.
+20250328002624 SUCCESS ML4W Dotfiles 2.9.8.2 successfully prepared in /home/ian/.ml4w-hyprland/2.9.8.2/
+20250328002624 SUCCESS hook.tpl created
+20250328002624 SUCCESS post.tpl created
+20250328002624 SUCCESS automation.tpl created
+20250328002624 SUCCESS activate.sh updated
+20250328002624 SUCCESS scripts.sh for 2.9.8.2 updated in /home/ian/.ml4w-hyprland/library
+20250328002624 SUCCESS AUR Helper updated with yay
+
+# ------------------------------------------------------
+# SDDM
+# ------------------------------------------------------
+
+20250328002624 MESSAGE You have already installed a display manager.
+20250328002626 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# SDDM Theme
+# ------------------------------------------------------
+
+20250328002631 MESSAGE Installing sequoia
+wget: WGETRC points to /home/ian/.config/wgetrc, which couldn't be accessed because of error: No such file or directory.
+20250328002631 SUCCESS Download of sequoia complete
+unzip:  cannot find or open /home/ian/.ml4w/sequoia/main.zip, /home/ian/.ml4w/sequoia/main.zip.zip or /home/ian/.ml4w/sequoia/main.zip.ZIP.
+20250328002631 SUCCESS Unzip of sequoia complete
+20250328002631 SUCCESS sequoia copied to target location
+20250328002631 SUCCESS File /etc/sddm.conf.d/sddm.conf updated.
+20250328002631 SUCCESS Theme installed
+
+# ------------------------------------------------------
+# Before restore
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Restore
+# ------------------------------------------------------
+
+20250328002701 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# Keyboard
+# ------------------------------------------------------
+
+20250328002701 MESSAGE Keyboard layout: us
+20250328002701 MESSAGE Keyboard variant: 
+20250328002702 SUCCESS Keyboard setup complete.
+
+# ------------------------------------------------------
+# Hook
+# ------------------------------------------------------
+
+20250328002704 MESSAGE .bashrc will be installed
+20250328002705 MESSAGE .zshrc will be installed
+
+# ------------------------------------------------------
+# Kitty
+# ------------------------------------------------------
+
+20250328002705 MESSAGE The script has detected a kitty folder in your ~/.config folder.
+20250328002705 MESSAGE You can keept it or replace it with the latest version of ML4W Dotfiles 2.9.8.2.
+20250328002705 MESSAGE ML4W Kitty configuration will be installed
+
+# ------------------------------------------------------
+# Neovim
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Wallpaper
+# ------------------------------------------------------
+
+20250328002707 MESSAGE Waypaper configuration exists
+
+# ------------------------------------------------------
+# Protect
+# ------------------------------------------------------
+
+20250328002707 MESSAGE Checking for directory ~/.config/bashrc
+20250328002707 MESSAGE Checking for directory ~/.config/dunst
+20250328002707 MESSAGE Checking for directory ~/.config/fastfetch
+20250328002707 MESSAGE Checking for directory ~/.config/gtk-3.0
+20250328002707 MESSAGE Checking for directory ~/.config/gtk-4.0
+20250328002707 MESSAGE Checking for directory ~/.config/hypr
+20250328002707 MESSAGE Checking for directory ~/.config/kitty
+20250328002707 MESSAGE Checking for directory ~/.config/ml4w
+20250328002707 MESSAGE Checking for directory ~/.config/nvim
+20250328002707 MESSAGE Checking for directory ~/.config/nwg-dock-hyprland
+20250328002707 MESSAGE Checking for directory ~/.config/ohmyposh
+20250328002707 MESSAGE Checking for directory ~/.config/qt6ct
+20250328002707 MESSAGE Checking for directory ~/.config/rofi
+20250328002707 MESSAGE Checking for directory ~/.config/swaync
+20250328002707 MESSAGE Checking for directory ~/.config/vim
+20250328002707 MESSAGE Checking for directory ~/.config/wal
+20250328002707 MESSAGE Checking for directory ~/.config/waybar
+20250328002707 MESSAGE Checking for directory ~/.config/waypaper
+20250328002707 MESSAGE Checking for directory ~/.config/wlogout
+20250328002707 MESSAGE Checking for directory ~/.config/xsettingsd
+20250328002707 MESSAGE Checking for directory ~/.config/zshrc
+
+# ------------------------------------------------------
+# Copy
+# ------------------------------------------------------
+
+20250328002708 SUCCESS Copy started
+sending incremental file list
+.Xresources
+.bashrc
+.gtkrc-2.0
+.zshrc
+.config/
+.config/bashrc/00-init
+.config/bashrc/10-aliases
+.config/bashrc/20-customization
+.config/bashrc/30-autostart
+.config/dunst/
+.config/dunst/dunstrc
+.config/fastfetch/config.jsonc
+.config/gtk-3.0/settings.ini
+.config/gtk-4.0/settings.ini
+.config/hypr/
+.config/hypr/hypridle.conf
+.config/hypr/hyprland.conf
+.config/hypr/hyprlock.conf
+.config/hypr/hyprpaper.conf
+.config/hypr/conf/
+.config/hypr/conf/animation.conf
+.config/hypr/conf/autostart.conf
+.config/hypr/conf/cursor.conf
+.config/hypr/conf/custom.conf
+.config/hypr/conf/decoration.conf
+.config/hypr/conf/environment.conf
+.config/hypr/conf/keybinding.conf
+.config/hypr/conf/keyboard.conf
+.config/hypr/conf/layout.conf
+.config/hypr/conf/misc.conf
+.config/hypr/conf/ml4w.conf
+.config/hypr/conf/monitor.conf
+.config/hypr/conf/restorevariations.sh
+.config/hypr/conf/window.conf
+.config/hypr/conf/windowrule.conf
+.config/hypr/conf/workspace.conf
+.config/hypr/conf/animations/animations-classic.conf
+.config/hypr/conf/animations/animations-dynamic.conf
+.config/hypr/conf/animations/animations-fast.conf
+.config/hypr/conf/animations/animations-high.conf
+.config/hypr/conf/animations/animations-moving.conf
+.config/hypr/conf/animations/default.conf
+.config/hypr/conf/animations/disabled.conf
+.config/hypr/conf/animations/standard.conf
+.config/hypr/conf/decorations/default.conf
+.config/hypr/conf/decorations/no-rounding-more-blur.conf
+.config/hypr/conf/decorations/no-rounding.conf
+.config/hypr/conf/decorations/rounding-all-blur-no-shadows.conf
+.config/hypr/conf/decorations/rounding-all-blur.conf
+.config/hypr/conf/decorations/rounding-more-blur.conf
+.config/hypr/conf/decorations/rounding.conf
+.config/hypr/conf/environments/default.conf
+.config/hypr/conf/environments/kvm.conf
+.config/hypr/conf/environments/nvidia.conf
+.config/hypr/conf/keybindings/default.conf
+.config/hypr/conf/keybindings/fr.conf
+.config/hypr/conf/layouts/default.conf
+.config/hypr/conf/layouts/laptop.conf
+.config/hypr/conf/monitors/1366x768.conf
+.config/hypr/conf/monitors/1440x1080.conf
+.config/hypr/conf/monitors/1600x900.conf
+.config/hypr/conf/monitors/1920x1080.conf
+.config/hypr/conf/monitors/1920x1200.conf
+.config/hypr/conf/monitors/2560x1440.conf
+.config/hypr/conf/monitors/2560x1440@120.conf
+.config/hypr/conf/monitors/2560x1440@120x125.conf
+.config/hypr/conf/monitors/3440x1440.conf
+.config/hypr/conf/monitors/default.conf
+.config/hypr/conf/monitors/highres.conf
+.config/hypr/conf/monitors/nwg-displays.conf
+.config/hypr/conf/windowrules/default.conf
+.config/hypr/conf/windows/border-1-reverse.conf
+.config/hypr/conf/windows/border-1.conf
+.config/hypr/conf/windows/border-2-reverse.conf
+.config/hypr/conf/windows/border-2.conf
+.config/hypr/conf/windows/border-3-reverse.conf
+.config/hypr/conf/windows/border-3.conf
+.config/hypr/conf/windows/border-4-reverse.conf
+.config/hypr/conf/windows/border-4.conf
+.config/hypr/conf/windows/default.conf
+.config/hypr/conf/windows/no-border-more-gaps.conf
+.config/hypr/conf/windows/no-border.conf
+.config/hypr/conf/workspaces/default.conf
+.config/hypr/effects/wallpaper/blackwhite
+.config/hypr/effects/wallpaper/blackwhite-blur
+.config/hypr/effects/wallpaper/blackwhite-brightness40
+.config/hypr/effects/wallpaper/blackwhite-brightness60
+.config/hypr/effects/wallpaper/blackwhite-brightness80
+.config/hypr/effects/wallpaper/blur1
+.config/hypr/effects/wallpaper/blur1-brightness40
+.config/hypr/effects/wallpaper/blur1-brightness60
+.config/hypr/effects/wallpaper/blur1-brightness80
+.config/hypr/effects/wallpaper/blur2
+.config/hypr/effects/wallpaper/negate
+.config/hypr/effects/wallpaper/negate-brightness40
+.config/hypr/effects/wallpaper/negate-brightness60
+.config/hypr/effects/wallpaper/negate-brightness80
+.config/hypr/scripts/cleanup.sh
+.config/hypr/scripts/disabledm.sh
+.config/hypr/scripts/gamemode.sh
+.config/hypr/scripts/gtk.sh
+.config/hypr/scripts/hypridle.sh
+.config/hypr/scripts/hyprshade.sh
+.config/hypr/scripts/init-wallpaper-engine.sh
+.config/hypr/scripts/keybindings.sh
+.config/hypr/scripts/loadconfig.sh
+.config/hypr/scripts/moveTo.sh
+.config/hypr/scripts/power.sh
+.config/hypr/scripts/restart-hypridle.sh
+.config/hypr/scripts/screenshot.sh
+.config/hypr/scripts/systeminfo.sh
+.config/hypr/scripts/toggle-animations.sh
+.config/hypr/scripts/toggleallfloat.sh
+.config/hypr/scripts/wallpaper-automation.sh
+.config/hypr/scripts/wallpaper-cache.sh
+.config/hypr/scripts/wallpaper-effects.sh
+.config/hypr/scripts/wallpaper-restore.sh
+.config/hypr/scripts/wallpaper.sh
+.config/hypr/scripts/xdg.sh
+.config/hypr/shaders/blue-light-filter-25.glsl
+.config/hypr/shaders/blue-light-filter-50.glsl
+.config/hypr/shaders/blue-light-filter-75.glsl
+.config/hypr/shaders/invert-colors.glsl
+.config/kitty/kitty.conf
+.config/ml4w/
+.config/ml4w/assets/blank.png
+.config/ml4w/login/issue
+.config/ml4w/scripts/cliphist.sh
+.config/ml4w/scripts/figlet.sh
+.config/ml4w/scripts/installupdates.sh
+.config/ml4w/scripts/ml4w-autostart.sh
+.config/ml4w/scripts/nm-applet.sh
+.config/ml4w/scripts/sddm-wallpaper.sh
+.config/ml4w/scripts/shell.sh
+.config/ml4w/scripts/thunarterminal.sh
+.config/ml4w/scripts/updates.sh
+.config/ml4w/scripts/wlogout.sh
+.config/ml4w/scripts/arch/cleanup.sh
+.config/ml4w/scripts/arch/installprinters.sh
+.config/ml4w/scripts/arch/installtimeshift.sh
+.config/ml4w/scripts/arch/lid-improvements.sh
+.config/ml4w/scripts/arch/pacman.sh
+.config/ml4w/scripts/arch/snapshot.sh
+.config/ml4w/scripts/arch/unlock-pacman.sh
+.config/ml4w/settings/
+.config/ml4w/settings/ai.sh
+.config/ml4w/settings/aur.sh
+.config/ml4w/settings/blur.sh
+.config/ml4w/settings/browser.sh
+.config/ml4w/settings/calculator.sh
+.config/ml4w/settings/calendar.sh
+.config/ml4w/settings/dotfiles-folder.sh
+.config/ml4w/settings/dunst_position.sh
+.config/ml4w/settings/editor.sh
+.config/ml4w/settings/email.sh
+.config/ml4w/settings/emojipicker.sh
+.config/ml4w/settings/eww-monitor.sh
+.config/ml4w/settings/filemanager.sh
+.config/ml4w/settings/hypridle_dpms_timeout.sh
+.config/ml4w/settings/hypridle_hyprlock_timeout.sh
+.config/ml4w/settings/hypridle_suspend_timeout.sh
+.config/ml4w/settings/hyprpaper.tpl
+.config/ml4w/settings/hyprpicker.sh
+.config/ml4w/settings/hyprshade.sh
+.config/ml4w/settings/installupdates.sh
+.config/ml4w/settings/ml4w-sidebar.sh
+.config/ml4w/settings/networkmanager.sh
+.config/ml4w/settings/printer-drivers.sh
+.config/ml4w/settings/rofi-border-radius.rasi
+.config/ml4w/settings/rofi-border.rasi
+.config/ml4w/settings/rofi-font.rasi
+.config/ml4w/settings/rofi_bordersize.sh
+.config/ml4w/settings/screenshot-editor.sh
+.config/ml4w/settings/screenshot-filename.sh
+.config/ml4w/settings/screenshot-folder.sh
+.config/ml4w/settings/software.sh
+.config/ml4w/settings/system-monitor.sh
+.config/ml4w/settings/terminal.sh
+.config/ml4w/settings/wallpaper-automation.sh
+.config/ml4w/settings/wallpaper-effect.sh
+.config/ml4w/settings/wallpaper-engine.sh
+.config/ml4w/settings/wallpaper-folder.sh
+.config/ml4w/settings/waybar-quicklinks.json
+.config/ml4w/settings/waybar_appmenu.sh
+.config/ml4w/settings/waybar_backlight.sh
+.config/ml4w/settings/waybar_chatgpt.sh
+.config/ml4w/settings/waybar_custom_timedateformat.sh
+.config/ml4w/settings/waybar_dateformat.sh
+.config/ml4w/settings/waybar_network.sh
+.config/ml4w/settings/waybar_quicklinks.sh
+.config/ml4w/settings/waybar_screenlock.sh
+.config/ml4w/settings/waybar_settings.sh
+.config/ml4w/settings/waybar_systray.sh
+.config/ml4w/settings/waybar_taskbar.sh
+.config/ml4w/settings/waybar_timeformat.sh
+.config/ml4w/settings/waybar_timezone.sh
+.config/ml4w/settings/waybar_toggle.sh
+.config/ml4w/settings/waybar_window.sh
+.config/ml4w/settings/waybar_workspaces.sh
+.config/ml4w/settings/wlogout-parameters.sh
+.config/ml4w/settings/sddm/theme.tpl
+.config/ml4w/tpl/.zshrc
+.config/ml4w/version/compare.sh
+.config/ml4w/version/library.sh
+.config/ml4w/version/name
+.config/ml4w/version/update.sh
+.config/nvim/init.vim
+.config/nwg-dock-hyprland/launch.sh
+.config/nwg-dock-hyprland/style-dark.css
+.config/nwg-dock-hyprland/style-light.css
+.config/ohmyposh/EDM115-newline.omp.json
+.config/ohmyposh/zen.toml
+.config/qt6ct/qt6ct.conf
+.config/rofi/config-cliphist.rasi
+.config/rofi/config-compact.rasi
+.config/rofi/config-hyprshade.rasi
+.config/rofi/config-old.rasi
+.config/rofi/config-screenshot.rasi
+.config/rofi/config-short.rasi
+.config/rofi/config-themes.rasi
+.config/rofi/config.rasi
+.config/swaync/config.json
+.config/swaync/style.css
+.config/vim/.vimrc
+.config/wal/
+.config/wal/templates/colors-hyprland.conf
+.config/wal/templates/colors-rofi-pywal.rasi
+.config/wal/templates/colors-waybar.css
+.config/wal/templates/colors-wlogout.css
+.config/waybar/
+.config/waybar/launch.sh
+.config/waybar/modules.json
+.config/waybar/themeswitcher.sh
+.config/waybar/toggle.sh
+.config/waybar/themes/assets/ai-icon-20.png
+.config/waybar/themes/assets/ai-icon.png
+.config/waybar/themes/assets/hyprland-icon-20.png
+.config/waybar/themes/assets/hyprland-icon.png
+.config/waybar/themes/assets/ml4w-icon-20.png
+.config/waybar/themes/assets/ml4w-icon-black.svg
+.config/waybar/themes/assets/ml4w-icon-dark.png
+.config/waybar/themes/assets/ml4w-icon-white.svg
+.config/waybar/themes/assets/ml4w-icon.png
+.config/waybar/themes/assets/ml4w-icon.svg
+.config/waybar/themes/assets/openai-black.svg
+.config/waybar/themes/assets/openai-white.svg
+.config/waybar/themes/assets/openai.svg
+.config/waybar/themes/default/config
+.config/waybar/themes/default/config.sh
+.config/waybar/themes/default/style.css
+.config/waybar/themes/ml4w-blur-bottom/
+.config/waybar/themes/ml4w-blur-bottom/config
+.config/waybar/themes/ml4w-blur-bottom/black/config.sh
+.config/waybar/themes/ml4w-blur-bottom/black/style.css
+.config/waybar/themes/ml4w-blur-bottom/colored/config.sh
+.config/waybar/themes/ml4w-blur-bottom/colored/style.css
+.config/waybar/themes/ml4w-blur-bottom/dark/config.sh
+.config/waybar/themes/ml4w-blur-bottom/dark/style.css
+.config/waybar/themes/ml4w-blur-bottom/light/config.sh
+.config/waybar/themes/ml4w-blur-bottom/light/style.css
+.config/waybar/themes/ml4w-blur-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-blur-bottom/mixed/style.css
+.config/waybar/themes/ml4w-blur-bottom/white/config.sh
+.config/waybar/themes/ml4w-blur-bottom/white/style.css
+.config/waybar/themes/ml4w-blur/
+.config/waybar/themes/ml4w-blur/config
+.config/waybar/themes/ml4w-blur/style.css
+.config/waybar/themes/ml4w-blur/black/config.sh
+.config/waybar/themes/ml4w-blur/black/style.css
+.config/waybar/themes/ml4w-blur/colored/config.sh
+.config/waybar/themes/ml4w-blur/colored/style.css
+.config/waybar/themes/ml4w-blur/dark/config.sh
+.config/waybar/themes/ml4w-blur/dark/style.css
+.config/waybar/themes/ml4w-blur/light/config.sh
+.config/waybar/themes/ml4w-blur/light/style.css
+.config/waybar/themes/ml4w-blur/mixed/config.sh
+.config/waybar/themes/ml4w-blur/mixed/style.css
+.config/waybar/themes/ml4w-blur/white/config.sh
+.config/waybar/themes/ml4w-blur/white/style.css
+.config/waybar/themes/ml4w-bottom/
+.config/waybar/themes/ml4w-bottom/config
+.config/waybar/themes/ml4w-bottom/black/config.sh
+.config/waybar/themes/ml4w-bottom/black/style.css
+.config/waybar/themes/ml4w-bottom/colored/config.sh
+.config/waybar/themes/ml4w-bottom/colored/style.css
+.config/waybar/themes/ml4w-bottom/dark/config.sh
+.config/waybar/themes/ml4w-bottom/dark/style.css
+.config/waybar/themes/ml4w-bottom/light/config.sh
+.config/waybar/themes/ml4w-bottom/light/style.css
+.config/waybar/themes/ml4w-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-bottom/mixed/style.css
+.config/waybar/themes/ml4w-bottom/white/config.sh
+.config/waybar/themes/ml4w-bottom/white/style.css
+.config/waybar/themes/ml4w-minimal/
+.config/waybar/themes/ml4w-minimal/config
+.config/waybar/themes/ml4w-minimal/config.sh
+.config/waybar/themes/ml4w-minimal/style.css
+.config/waybar/themes/ml4w-modern/
+.config/waybar/themes/ml4w-modern/config
+.config/waybar/themes/ml4w-modern/style.css
+.config/waybar/themes/ml4w-modern/black/config.sh
+.config/waybar/themes/ml4w-modern/black/style.css
+.config/waybar/themes/ml4w-modern/colored/config.sh
+.config/waybar/themes/ml4w-modern/colored/style.css
+.config/waybar/themes/ml4w-modern/dark/config.sh
+.config/waybar/themes/ml4w-modern/dark/style.css
+.config/waybar/themes/ml4w-modern/light/config.sh
+.config/waybar/themes/ml4w-modern/light/style.css
+.config/waybar/themes/ml4w-modern/mixed/config.sh
+.config/waybar/themes/ml4w-modern/mixed/style.css
+.config/waybar/themes/ml4w-modern/white/config.sh
+.config/waybar/themes/ml4w-modern/white/style.css
+.config/waybar/themes/ml4w/
+.config/waybar/themes/ml4w/config
+.config/waybar/themes/ml4w/style.css
+.config/waybar/themes/ml4w/black/config.sh
+.config/waybar/themes/ml4w/black/style.css
+.config/waybar/themes/ml4w/colored/config.sh
+.config/waybar/themes/ml4w/colored/style.css
+.config/waybar/themes/ml4w/dark/config.sh
+.config/waybar/themes/ml4w/dark/style.css
+.config/waybar/themes/ml4w/light/config.sh
+.config/waybar/themes/ml4w/light/style.css
+.config/waybar/themes/ml4w/mixed/config.sh
+.config/waybar/themes/ml4w/mixed/style.css
+.config/waybar/themes/ml4w/white/config.sh
+.config/waybar/themes/ml4w/white/style.css
+.config/waybar/themes/starter/
+.config/waybar/themes/starter/config
+.config/waybar/themes/starter/config.sh
+.config/waybar/themes/starter/modules.json
+.config/waybar/themes/starter/style.css
+.config/wlogout/README.txt
+.config/wlogout/layout
+.config/wlogout/noise.png
+.config/wlogout/style.css
+.config/wlogout/icons/hibernate.png
+.config/wlogout/icons/lock.png
+.config/wlogout/icons/logout.png
+.config/wlogout/icons/reboot.png
+.config/wlogout/icons/shutdown.png
+.config/wlogout/icons/suspend.png
+.config/xsettingsd/xsettingsd.conf
+.config/zshrc/00-init
+.config/zshrc/20-customization
+.config/zshrc/25-aliases
+.config/zshrc/30-autostart
+
+sent 580.22K bytes  received 6.52K bytes  1.17M bytes/sec
+total size is 556.94K  speedup is 0.95
+20250328002708 SUCCESS All files from /home/ian/.ml4w-hyprland/2.9.8.2/ to ~/dotfiles/ copied.
+
+# ------------------------------------------------------
+# Symlinks
+# ------------------------------------------------------
+
+20250328002709 SUCCESS /home/ian/dotfiles/.bashrc -> /home/ian/.bashrc
+20250328002709 SUCCESS /home/ian/dotfiles/.gtkrc-2.0 -> /home/ian/.gtkrc-2.0
+20250328002709 SUCCESS /home/ian/dotfiles/.Xresources -> /home/ian/.Xresources
+20250328002709 SUCCESS /home/ian/dotfiles/.zshrc -> /home/ian/.zshrc
+20250328002709 SUCCESS /home/ian/dotfiles/.config/bashrc -> /home/ian/.config/bashrc
+20250328002709 SUCCESS /home/ian/dotfiles/.config/dunst -> /home/ian/.config/dunst
+20250328002709 SUCCESS /home/ian/dotfiles/.config/fastfetch -> /home/ian/.config/fastfetch
+20250328002709 SUCCESS /home/ian/dotfiles/.config/gtk-3.0 -> /home/ian/.config/gtk-3.0
+20250328002709 SUCCESS /home/ian/dotfiles/.config/gtk-4.0 -> /home/ian/.config/gtk-4.0
+20250328002709 SUCCESS /home/ian/dotfiles/.config/hypr -> /home/ian/.config/hypr
+20250328002709 SUCCESS /home/ian/dotfiles/.config/kitty -> /home/ian/.config/kitty
+20250328002709 SUCCESS /home/ian/dotfiles/.config/ml4w -> /home/ian/.config/ml4w
+20250328002709 SUCCESS /home/ian/dotfiles/.config/nvim -> /home/ian/.config/nvim
+20250328002709 SUCCESS /home/ian/dotfiles/.config/nwg-dock-hyprland -> /home/ian/.config/nwg-dock-hyprland
+20250328002709 SUCCESS /home/ian/dotfiles/.config/ohmyposh -> /home/ian/.config/ohmyposh
+20250328002709 SUCCESS /home/ian/dotfiles/.config/qt6ct -> /home/ian/.config/qt6ct
+20250328002709 SUCCESS /home/ian/dotfiles/.config/rofi -> /home/ian/.config/rofi
+20250328002709 SUCCESS /home/ian/dotfiles/.config/swaync -> /home/ian/.config/swaync
+20250328002709 SUCCESS /home/ian/dotfiles/.config/vim -> /home/ian/.config/vim
+20250328002709 SUCCESS /home/ian/dotfiles/.config/wal -> /home/ian/.config/wal
+20250328002709 SUCCESS /home/ian/dotfiles/.config/waybar -> /home/ian/.config/waybar
+20250328002709 SUCCESS /home/ian/dotfiles/.config/waypaper -> /home/ian/.config/waypaper
+20250328002709 SUCCESS /home/ian/dotfiles/.config/wlogout -> /home/ian/.config/wlogout
+20250328002709 SUCCESS /home/ian/dotfiles/.config/xsettingsd -> /home/ian/.config/xsettingsd
+20250328002709 SUCCESS /home/ian/dotfiles/.config/zshrc -> /home/ian/.config/zshrc
+
+# ------------------------------------------------------
+# Pywal
+# ------------------------------------------------------
+
+20250328002709 MESSAGE Pywal already activated.
+
+# ------------------------------------------------------
+# Settings
+# ------------------------------------------------------
+
+20250328002709 MESSAGE Starting restore settings
+20250328002709 SUCCESS waybar_timeformat restored
+20250328002709 SUCCESS dunst_position restored
+20250328002709 SUCCESS waybar_workspaces restored
+20250328002709 SUCCESS waybar_taskbar restored
+20250328002709 SUCCESS waybar_network restored
+20250328002709 SUCCESS waybar_backlight restored
+20250328002709 SUCCESS waybar_chatgpt restored
+20250328002709 SUCCESS waybar_systray restored
+20250328002709 SUCCESS waybar_screenlock restored
+20250328002709 SUCCESS waybar_window restored
+20250328002709 SUCCESS waybar_appmenu restored
+20250328002709 SUCCESS waybar_appmenuicon restored
+20250328002709 SUCCESS hypridle_hyprlock_timeout restored
+20250328002709 SUCCESS hypridle_dpms_timeout restored
+20250328002709 SUCCESS hypridle_suspend_timeout restored
+Looking for matches…
+
+
+ 1.	   	org.freedesktop.Platform.GL.default	24.08	i	flathub	< 156.8 MB
+ 2.	   	org.freedesktop.Platform.GL.default	24.08extra	i	flathub	< 156.8 MB
+ 3.	   	org.freedesktop.Platform.VAAPI.Intel	24.08	i	flathub	< 15.0 MB
+ 4.	   	org.freedesktop.Platform.openh264	2.5.1	i	flathub	< 971.4 kB
+ 5.	   	org.gnome.Platform.Locale	47	i	flathub	< 386.9 MB (partial)
+ 6.	   	org.gnome.Platform	47	i	flathub	< 395.5 MB
+
+
+Installing 1/6…
+Installing 1/6…                        0%  0 bytes/s
+Installing 1/6… █▌                     8%
+Installing 1/6… █▊                     9%
+Installing 1/6… ██▍                   12%  3.4 MB/s
+Installing 1/6… ██▍                   12%  3.7 MB/s
+Installing 1/6… ██▌                   13%  4.4 MB/s
+Installing 1/6… ██▊                   14%  4.7 MB/s
+Installing 1/6… ██▊                   14%  2.6 MB/s
+Installing 1/6… ███                   15%  2.8 MB/s
+Installing 1/6… ███                   15%  3.0 MB/s
+Installing 1/6… ███▏                  16%  2.2 MB/s
+Installing 1/6… ███▍                  17%  2.4 MB/s
+Installing 1/6… ███▍                  17%  2.6 MB/s
+Installing 1/6… ███▌                  18%  2.1 MB/s  00:18
+Installing 1/6… ███▊                  19%  2.2 MB/s  00:17
+Installing 1/6… ███▊                  19%  2.3 MB/s  00:17
+Installing 1/6… ████                  20%  2.5 MB/s  00:16
+Installing 1/6… ████▏                 21%  2.1 MB/s  00:18
+Installing 1/6… ████▏                 21%  2.2 MB/s  00:18
+Installing 1/6… ████▍                 22%  2.2 MB/s  00:17
+Installing 1/6… ████▍                 22%  2.0 MB/s  00:21
+Installing 1/6… ████▌                 23%  2.0 MB/s  00:20
+Installing 1/6… ████▊                 24%  2.1 MB/s  00:19
+Installing 1/6… █████                 25%  1.9 MB/s  00:21
+Installing 1/6… █████                 25%  2.0 MB/s  00:21
+Installing 1/6… █████▏                26%  2.1 MB/s  00:19
+Installing 1/6… █████▍                27%  2.1 MB/s  00:18
+Installing 1/6… █████▍                27%  1.9 MB/s  00:21
+Installing 1/6… █████▍                27%  1.9 MB/s  00:21
+Installing 1/6… █████▌                28%  2.0 MB/s  00:20
+Installing 1/6… █████▌                28%  1.8 MB/s  00:23
+Installing 1/6… █████▌                28%  1.8 MB/s  00:23
+Installing 1/6… █████▊                29%  1.8 MB/s  00:22
+Installing 1/6… █████▊                29%  1.7 MB/s  00:24
+Installing 1/6… █████▊                29%  1.7 MB/s  00:24
+Installing 1/6… ██████                30%  1.7 MB/s  00:23
+Installing 1/6… ██████                30%  1.8 MB/s  00:23
+Installing 1/6… ██████▏               31%  1.7 MB/s  00:24
+Installing 1/6… ██████▏               31%  1.7 MB/s  00:24
+Installing 1/6… ██████▍               32%  1.7 MB/s  00:23
+Installing 1/6… ██████▍               32%  1.6 MB/s  00:25
+Installing 1/6… ██████▌               33%  1.7 MB/s  00:24
+Installing 1/6… ██████▊               34%  1.7 MB/s  00:23
+Installing 1/6… ██████▊               34%  1.6 MB/s  00:25
+Installing 1/6… ███████               35%  1.7 MB/s  00:24
+Installing 1/6… ███████▏              36%  1.7 MB/s  00:23
+Installing 1/6… ███████▏              36%  1.7 MB/s  00:23
+Installing 1/6… ███████▍              37%  1.7 MB/s  00:23
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:22
+Installing 1/6… ███████▊              39%  1.7 MB/s  00:21
+Installing 1/6… ████████              40%  1.7 MB/s  00:22
+Installing 1/6… ████████              40%  1.7 MB/s  00:22
+Installing 1/6… ████████▏             41%  1.8 MB/s  00:21
+Installing 1/6… ████████▍             42%  1.7 MB/s  00:22
+Installing 1/6… ████████▌             43%  1.7 MB/s  00:21
+Installing 1/6… ████████▊             44%  1.8 MB/s  00:20
+Installing 1/6… █████████             45%  1.8 MB/s  00:19
+Installing 1/6… █████████▏            46%  1.8 MB/s  00:19
+Installing 1/6… █████████▍            47%  1.8 MB/s  00:19
+Installing 1/6… █████████▍            47%  1.8 MB/s  00:19
+Installing 1/6… █████████▌            48%  1.7 MB/s  00:19
+Installing 1/6… █████████▌            48%  1.8 MB/s  00:19
+Installing 1/6… █████████▊            49%  1.8 MB/s  00:18
+Installing 1/6… █████████▊            49%  1.7 MB/s  00:19
+Installing 1/6… █████████▊            49%  1.7 MB/s  00:19
+Installing 1/6… ██████████            50%  1.7 MB/s  00:19
+Installing 1/6… ██████████            50%  1.7 MB/s  00:19
+Installing 1/6… ██████████            50%  1.7 MB/s  00:20
+Installing 1/6… ██████████▏           51%  1.7 MB/s  00:19
+Installing 1/6… ██████████▏           51%  1.7 MB/s  00:19
+Installing 1/6… ██████████▍           52%  1.6 MB/s  00:19
+Installing 1/6… ██████████▍           52%  1.7 MB/s  00:19
+Installing 1/6… ██████████▍           52%  1.7 MB/s  00:19
+Installing 1/6… ██████████▌           53%  1.6 MB/s  00:19
+Installing 1/6… ██████████▊           54%  1.6 MB/s  00:18
+Installing 1/6… ██████████▊           54%  1.7 MB/s  00:18
+Installing 1/6… ███████████           55%  1.7 MB/s  00:18
+Installing 1/6… ███████████           55%  1.6 MB/s  00:18
+Installing 1/6… ███████████▏          56%  1.6 MB/s  00:18
+Installing 1/6… ███████████▍          57%  1.7 MB/s  00:17
+Installing 1/6… ███████████▍          57%  1.6 MB/s  00:18
+Installing 1/6… ███████████▌          58%  1.6 MB/s  00:17
+Installing 1/6… ███████████▊          59%  1.7 MB/s  00:16
+Installing 1/6… ████████████          60%  1.6 MB/s  00:16
+Installing 1/6… ████████████          60%  1.6 MB/s  00:16
+Installing 1/6… ████████████▏         61%  1.7 MB/s  00:15
+Installing 1/6… ████████████▍         62%  1.7 MB/s  00:15
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:15
+Installing 1/6… ████████████▊         64%  1.7 MB/s  00:14
+Installing 1/6… ████████████▊         64%  1.7 MB/s  00:14
+Installing 1/6… █████████████         65%  1.7 MB/s  00:14
+Installing 1/6… █████████████         65%  1.7 MB/s  00:14
+Installing 1/6… █████████████▏        66%  1.7 MB/s  00:13
+Installing 1/6… █████████████▏        66%  1.6 MB/s  00:14
+Installing 1/6… █████████████▍        67%  1.7 MB/s  00:13
+Installing 1/6… █████████████▍        67%  1.7 MB/s  00:13
+Installing 1/6… █████████████▌        68%  1.7 MB/s  00:13
+Installing 1/6… █████████████▊        69%  1.6 MB/s  00:13
+Installing 1/6… █████████████▊        69%  1.7 MB/s  00:13
+Installing 1/6… ██████████████        70%  1.7 MB/s  00:12
+Installing 1/6… ██████████████▏       71%  1.6 MB/s  00:12
+Installing 1/6… ██████████████▏       71%  1.7 MB/s  00:12
+Installing 1/6… ██████████████▍       72%  1.7 MB/s  00:11
+Installing 1/6… ██████████████▌       73%  1.6 MB/s  00:11
+Installing 1/6… ██████████████▌       73%  1.7 MB/s  00:11
+Installing 1/6… ██████████████▊       74%  1.7 MB/s  00:10
+Installing 1/6… ██████████████▊       74%  1.7 MB/s  00:10
+Installing 1/6… ███████████████       75%  1.6 MB/s  00:10
+Installing 1/6… ███████████████       75%  1.6 MB/s  00:10
+Installing 1/6… ███████████████       75%  1.6 MB/s  00:10
+Installing 1/6… ███████████████       75%  1.6 MB/s  00:11
+Installing 1/6… ███████████████▏      76%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▏      76%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▏      76%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▏      76%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▍      77%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▍      77%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▍      77%  1.6 MB/s  00:10
+Installing 1/6… ███████████████▌      78%  1.6 MB/s  00:09
+Installing 1/6… ███████████████▌      78%  1.6 MB/s  00:09
+Installing 1/6… ███████████████▊      79%  1.5 MB/s  00:09
+Installing 1/6… ███████████████▊      79%  1.6 MB/s  00:09
+Installing 1/6… ████████████████      80%  1.6 MB/s  00:09
+Installing 1/6… ████████████████      80%  1.5 MB/s  00:09
+Installing 1/6… ████████████████▏     81%  1.6 MB/s  00:08
+Installing 1/6… ████████████████▍     82%  1.6 MB/s  00:08
+Installing 1/6… ████████████████▍     82%  1.5 MB/s  00:08
+Installing 1/6… ████████████████▌     83%  1.5 MB/s  00:07
+Installing 1/6… ████████████████▌     83%  1.6 MB/s  00:07
+Installing 1/6… ████████████████▊     84%  1.6 MB/s  00:07
+Installing 1/6… █████████████████     85%  1.5 MB/s  00:06
+Installing 1/6… █████████████████▏    86%  1.6 MB/s  00:06
+Installing 1/6… █████████████████▏    86%  1.6 MB/s  00:06
+Installing 1/6… █████████████████▍    87%  1.6 MB/s  00:05
+Installing 1/6… █████████████████▌    88%  1.6 MB/s  00:05
+Installing 1/6… █████████████████▊    89%  1.6 MB/s  00:04
+Installing 1/6… ██████████████████    90%  1.6 MB/s  00:04
+Installing 1/6… ██████████████████▏   91%  1.6 MB/s  00:04
+Installing 1/6… ██████████████████▌   93%  1.6 MB/s  00:03
+Installing 1/6… ██████████████████▊   94%  1.6 MB/s  00:02
+Installing 1/6… ██████████████████▊   94%  1.6 MB/s  00:02
+Installing 1/6… ███████████████████   95%  1.6 MB/s  00:02
+Installing 1/6… ███████████████████▏  96%  1.6 MB/s  00:01
+Installing 1/6… ███████████████████▏  96%  1.6 MB/s  00:01
+Installing 1/6… ███████████████████▍  97%  1.6 MB/s  00:01
+Installing 1/6… ███████████████████▌  98%  1.6 MB/s  00:00
+Installing 1/6… ███████████████████▌  98%  1.6 MB/s  00:00
+Installing 1/6… ███████████████████▊  99%  1.6 MB/s  00:00
+Installing 1/6… ████████████████████ 100%  1.6 MB/s  00:00
+Installing 1/6… ████████████████████ 100%  1.6 MB/s  00:00
+Installing 2/6…
+Installing 2/6…                        0%  0 bytes/s
+Installing 2/6… █▌                     8%
+Installing 2/6… ██▏                   11%
+Installing 2/6… ███▌                  18%  2.9 MB/s
+Installing 2/6… ████                  20%  3.4 MB/s
+Installing 2/6… ████▍                 22%  4.0 MB/s
+Installing 2/6… ████▊                 24%  4.5 MB/s
+Installing 2/6… █████▏                26%  2.6 MB/s
+Installing 2/6… █████▌                28%  2.8 MB/s
+Installing 2/6… ██████                30%  3.1 MB/s
+Installing 2/6… ██████▍               32%  2.3 MB/s
+Installing 2/6… ██████▊               34%  2.4 MB/s
+Installing 2/6… ███████▏              36%  2.6 MB/s
+Installing 2/6… ███████▌              38%  2.1 MB/s  00:06
+Installing 2/6… ████████              40%  2.2 MB/s  00:06
+Installing 2/6… ████████▏             41%  2.3 MB/s  00:05
+Installing 2/6… ████████▌             43%  2.4 MB/s  00:05
+Installing 2/6… ████████▊             44%  2.0 MB/s  00:06
+Installing 2/6… █████████             45%  2.0 MB/s  00:06
+Installing 2/6… █████████▏            46%  2.1 MB/s  00:05
+Installing 2/6… █████████▍            47%  1.8 MB/s  00:06
+Installing 2/6… █████████▌            48%  1.9 MB/s  00:06
+Installing 2/6… █████████▊            49%  1.9 MB/s  00:06
+Installing 2/6… ██████████▏           51%  1.7 MB/s  00:06
+Installing 2/6… ██████████▍           52%  1.8 MB/s  00:06
+Installing 2/6… ██████████▊           54%  1.8 MB/s  00:05
+Installing 2/6… ███████████▏          56%  1.9 MB/s  00:05
+Installing 2/6… ███████████▍          57%  1.7 MB/s  00:06
+Installing 2/6… ███████████▊          59%  1.8 MB/s  00:05
+Installing 2/6… ████████████▏         61%  1.8 MB/s  00:05
+Installing 2/6… ████████████▌         63%  1.7 MB/s  00:05
+Installing 2/6… █████████████         65%  1.7 MB/s  00:04
+Installing 2/6… █████████████▍        67%  1.8 MB/s  00:04
+Installing 2/6… █████████████▊        69%  1.7 MB/s  00:04
+Installing 2/6… ██████████████▏       71%  1.7 MB/s  00:04
+Installing 2/6… ██████████████▌       73%  1.8 MB/s  00:03
+Installing 2/6… ███████████████▏      76%  1.9 MB/s  00:03
+Installing 2/6… ███████████████▌      78%  1.8 MB/s  00:03
+Installing 2/6… ████████████████▏     81%  1.8 MB/s  00:02
+Installing 2/6… ████████████████▌     83%  1.9 MB/s  00:02
+Installing 2/6… █████████████████▏    86%  1.8 MB/s  00:01
+Installing 2/6… █████████████████▍    87%  1.8 MB/s  00:01
+Installing 2/6… █████████████████▌    88%  1.8 MB/s  00:01
+Installing 2/6… █████████████████▊    89%  1.7 MB/s  00:01
+Installing 2/6… ██████████████████    90%  1.7 MB/s  00:01
+Installing 2/6… ██████████████████    90%  1.7 MB/s  00:01
+Installing 2/6… ██████████████████▏   91%  1.8 MB/s  00:01
+Installing 2/6… ██████████████████▍   92%  1.6 MB/s  00:01
+Installing 2/6… ██████████████████▍   92%  1.7 MB/s  00:01
+Installing 2/6… ██████████████████▌   93%  1.7 MB/s  00:01
+Installing 2/6… ██████████████████▊   94%  1.6 MB/s  00:00
+Installing 2/6… ███████████████████   95%  1.6 MB/s  00:00
+Installing 2/6… ███████████████████▏  96%  1.6 MB/s  00:00
+Installing 2/6… ███████████████████▍  97%  1.5 MB/s  00:00
+Installing 2/6… ███████████████████▊  99%  1.6 MB/s  00:00
+Installing 2/6… ████████████████████ 100%  1.6 MB/s  00:00
+Installing 2/6… ████████████████████ 100%  1.5 MB/s  00:00
+Installing 3/6…
+Installing 3/6…                        0%  0 bytes/s
+Installing 3/6… █▌                     8%
+Installing 3/6… ██▍                   12%
+Installing 3/6… █████▊                29%  3.4 MB/s
+Installing 3/6… ██████▍               32%  4.0 MB/s
+Installing 3/6… ██████▊               34%  4.3 MB/s
+Installing 3/6… ███████               35%  2.3 MB/s
+Installing 3/6… ███████▊              39%  2.5 MB/s
+Installing 3/6… ████████▍             42%  2.8 MB/s
+Installing 3/6… █████████▏            46%  3.1 MB/s
+Installing 3/6… █████████▊            49%  2.2 MB/s
+Installing 3/6… ██████████▌           53%  2.4 MB/s
+Installing 3/6… ██████████▊           54%  2.5 MB/s
+Installing 3/6… ███████████▌          58%  2.0 MB/s  00:02
+Installing 3/6… ████████████▏         61%  2.2 MB/s  00:02
+Installing 3/6… ████████████▊         64%  2.3 MB/s  00:02
+Installing 3/6… █████████████▍        67%  1.9 MB/s  00:02
+Installing 3/6… ██████████████▏       71%  2.0 MB/s  00:02
+Installing 3/6… ██████████████▊       74%  2.1 MB/s  00:01
+Installing 3/6… ███████████████▍      77%  2.2 MB/s  00:01
+Installing 3/6… ████████████████      80%  2.0 MB/s  00:01
+Installing 3/6… ████████████████▊     84%  2.1 MB/s  00:01
+Installing 3/6… █████████████████▍    87%  2.1 MB/s  00:00
+Installing 3/6… █████████████████▌    88%  1.9 MB/s  00:00
+Installing 3/6… █████████████████▊    89%  1.9 MB/s  00:00
+Installing 3/6… ██████████████████    90%  1.9 MB/s  00:00
+Installing 3/6… ██████████████████    90%  1.7 MB/s  00:00
+Installing 3/6… ██████████████████▏   91%  1.7 MB/s  00:00
+Installing 3/6… ██████████████████▏   91%  1.7 MB/s  00:00
+Installing 3/6… ██████████████████▏   91%  1.7 MB/s  00:00
+Installing 3/6… ██████████████████▍   92%  1.5 MB/s  00:00
+Installing 3/6… ██████████████████▍   92%  1.5 MB/s  00:00
+Installing 3/6… ██████████████████▌   93%  1.5 MB/s  00:00
+Installing 3/6… ██████████████████▊   94%  1.4 MB/s  00:00
+Installing 3/6… ███████████████████   95%  1.4 MB/s  00:00
+Installing 3/6… ███████████████████▏  96%  1.4 MB/s  00:00
+Installing 3/6… ███████████████████▍  97%  1.3 MB/s  00:00
+Installing 3/6… ███████████████████▊  99%  1.3 MB/s  00:00
+Installing 3/6… ████████████████████ 100%  1.4 MB/s  00:00
+Installing 3/6… ████████████████████ 100%  1.4 MB/s  00:00
+Installing 4/6…
+Installing 4/6…                        0%  0 bytes/s
+Installing 4/6… █▌                     8%
+Installing 4/6… ████▍                 22%
+Installing 4/6… ███████▍              37%  294.1 kB/s
+Installing 4/6… ███████▍              37%  294.1 kB/s
+Installing 4/6… ████████████████████ 100%  913.7 kB/s
+Installing 5/6…
+Installing 5/6…                        0%  0 bytes/s
+Installing 5/6… ▌                      3%
+Installing 5/6… ████████████████████ 100%
+Installing 6/6…
+Installing 6/6…                        0%  0 bytes/s
+Installing 6/6… ▍                      2%
+Installing 6/6… █▌                     8%
+Installing 6/6… █▌                     8%  3.6 MB/s
+Installing 6/6… █▊                     9%  4.2 MB/s
+Installing 6/6… █▊                     9%  4.8 MB/s
+Installing 6/6… █▊                     9%  5.3 MB/s
+Installing 6/6… █▊                     9%  2.9 MB/s
+Installing 6/6… █▊                     9%  3.2 MB/s
+Installing 6/6… █▊                     9%  3.4 MB/s
+Installing 6/6… ██                    10%  2.5 MB/s
+Installing 6/6… ██                    10%  2.7 MB/s
+Installing 6/6… ██                    10%  2.9 MB/s
+Installing 6/6… ██                    10%  2.3 MB/s  00:36
+Installing 6/6… ██                    10%  2.3 MB/s  00:36
+Installing 6/6… ██                    10%  2.4 MB/s  00:36
+Installing 6/6… ██                    10%  2.4 MB/s  00:36
+Installing 6/6… ██                    10%  2.0 MB/s  00:45
+Installing 6/6… ██                    10%  2.0 MB/s  00:45
+Installing 6/6… ██                    10%  2.1 MB/s  00:45
+Installing 6/6… ██                    10%  1.8 MB/s  00:54
+Installing 6/6… ██                    10%  1.8 MB/s  00:54
+Installing 6/6… ██▏                   11%  1.8 MB/s  00:48
+Installing 6/6… ██▏                   11%  1.6 MB/s  00:56
+Installing 6/6… ██▏                   11%  1.7 MB/s  00:56
+Installing 6/6… ██▏                   11%  1.7 MB/s  00:56
+Installing 6/6… ██▏                   11%  1.6 MB/s  01:04
+Installing 6/6… ██▏                   11%  1.6 MB/s  01:04
+Installing 6/6… ██▏                   11%  1.7 MB/s  01:04
+Installing 6/6… ██▏                   11%  1.5 MB/s  01:12
+Installing 6/6… ██▏                   11%  1.6 MB/s  01:12
+Installing 6/6… ██▏                   11%  1.6 MB/s  01:12
+Installing 6/6… ██▍                   12%  1.5 MB/s  01:13
+Installing 6/6… ██▍                   12%  1.6 MB/s  01:13
+Installing 6/6… ██▍                   12%  1.6 MB/s  01:13
+Installing 6/6… ██▍                   12%  1.7 MB/s  01:13
+Installing 6/6… ██▍                   12%  1.6 MB/s  01:20
+Installing 6/6… ██▍                   12%  1.6 MB/s  01:20
+Installing 6/6… ██▌                   13%  1.7 MB/s  01:13
+Installing 6/6… ██▌                   13%  1.6 MB/s  01:20
+Installing 6/6… ██▌                   13%  1.6 MB/s  01:20
+Installing 6/6… ██▌                   13%  1.7 MB/s  01:20
+Installing 6/6… ██▌                   13%  1.6 MB/s  01:27
+Installing 6/6… ██▊                   14%  1.7 MB/s  01:26
+Installing 6/6… ██▊                   14%  1.7 MB/s  01:26
+Installing 6/6… ██▊                   14%  1.8 MB/s  01:26
+Installing 6/6… ██▊                   14%  1.8 MB/s  01:26
+Installing 6/6… ██▊                   14%  1.7 MB/s  01:32
+Installing 6/6… ██▊                   14%  1.7 MB/s  01:32
+Installing 6/6… ██▊                   14%  1.7 MB/s  01:32
+Installing 6/6… ███                   15%  1.6 MB/s  01:30
+Installing 6/6… ███                   15%  1.6 MB/s  01:30
+Installing 6/6… ███                   15%  1.6 MB/s  01:30
+Installing 6/6… ███                   15%  1.6 MB/s  01:36
+Installing 6/6… ███                   15%  1.6 MB/s  01:36
+Installing 6/6… ███                   15%  1.6 MB/s  01:36
+Installing 6/6… ███                   15%  1.6 MB/s  01:36
+Installing 6/6… ███                   15%  1.5 MB/s  01:42
+Installing 6/6… ███                   15%  1.6 MB/s  01:42
+Installing 6/6… ███                   15%  1.6 MB/s  01:42
+Installing 6/6… ███                   15%  1.5 MB/s  01:47
+Installing 6/6… ███▏                  16%  1.6 MB/s  01:39
+Installing 6/6… ███▏                  16%  1.6 MB/s  01:39
+Installing 6/6… ███▏                  16%  1.5 MB/s  01:45
+Installing 6/6… ███▏                  16%  1.5 MB/s  01:50
+Installing 6/6… ███▏                  16%  1.5 MB/s  01:50
+Installing 6/6… ███▏                  16%  1.6 MB/s  01:50
+Installing 6/6… ███▍                  17%  1.6 MB/s  01:42
+Installing 6/6… ███▍                  17%  1.6 MB/s  01:47
+Installing 6/6… ███▍                  17%  1.6 MB/s  01:47
+Installing 6/6… ███▍                  17%  1.6 MB/s  01:47
+Installing 6/6… ███▍                  17%  1.6 MB/s  01:52
+Installing 6/6… ███▌                  18%  1.6 MB/s  01:44
+Installing 6/6… ███▌                  18%  1.6 MB/s  01:44
+Installing 6/6… ███▌                  18%  1.6 MB/s  01:49
+Installing 6/6… ███▌                  18%  1.7 MB/s  01:49
+Installing 6/6… ███▊                  19%  1.7 MB/s  01:42
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:46
+Installing 6/6… ███▊                  19%  1.7 MB/s  01:46
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:50
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:50
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:50
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:50
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:55
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:55
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:55
+Installing 6/6… ███▊                  19%  1.6 MB/s  01:59
+Installing 6/6… ████                  20%  1.6 MB/s  01:52
+Installing 6/6… ████                  20%  1.6 MB/s  01:52
+Installing 6/6… ████                  20%  1.6 MB/s  01:56
+Installing 6/6… ████                  20%  1.6 MB/s  01:56
+Installing 6/6… ████                  20%  1.6 MB/s  01:56
+Installing 6/6… ████                  20%  1.6 MB/s  01:56
+Installing 6/6… ████                  20%  1.6 MB/s  02:00
+Installing 6/6… ████▏                 21%  1.6 MB/s  01:52
+Installing 6/6… ████▏                 21%  1.6 MB/s  01:52
+Installing 6/6… ████▏                 21%  1.6 MB/s  01:56
+Installing 6/6… ████▏                 21%  1.5 MB/s  02:00
+Installing 6/6… ████▏                 21%  1.6 MB/s  02:00
+Installing 6/6… ████▍                 22%  1.6 MB/s  01:53
+Installing 6/6… ████▍                 22%  1.6 MB/s  01:53
+Installing 6/6… ████▍                 22%  1.6 MB/s  01:57
+Installing 6/6… ████▍                 22%  1.6 MB/s  01:57
+Installing 6/6… ████▍                 22%  1.7 MB/s  01:57
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:53
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:53
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:53
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:57
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:57
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:57
+Installing 6/6… ████▌                 23%  1.6 MB/s  01:57
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:00
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:00
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:00
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:03
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:03
+Installing 6/6… ████▌                 23%  1.6 MB/s  02:03
+Installing 6/6… ████▌                 23%  1.5 MB/s  02:07
+Installing 6/6… ████▊                 24%  1.6 MB/s  02:00
+Installing 6/6… ████▊                 24%  1.5 MB/s  02:03
+Installing 6/6… ████▊                 24%  1.6 MB/s  02:03
+Installing 6/6… ████▊                 24%  1.6 MB/s  02:03
+Installing 6/6… ████▊                 24%  1.5 MB/s  02:06
+Installing 6/6… ████▊                 24%  1.6 MB/s  02:06
+Installing 6/6… █████                 25%  1.6 MB/s  02:00
+Installing 6/6… █████                 25%  1.5 MB/s  02:03
+Installing 6/6… █████                 25%  1.6 MB/s  02:03
+Installing 6/6… █████                 25%  1.6 MB/s  02:03
+Installing 6/6… █████                 25%  1.6 MB/s  02:03
+Installing 6/6… █████                 25%  1.6 MB/s  02:06
+Installing 6/6… █████▏                26%  1.6 MB/s  01:59
+Installing 6/6… █████▏                26%  1.6 MB/s  01:59
+Installing 6/6… █████▏                26%  1.6 MB/s  02:02
+Installing 6/6… █████▍                27%  1.6 MB/s  01:58
+Installing 6/6… █████▍                27%  1.6 MB/s  01:58
+Installing 6/6… █████▍                27%  1.6 MB/s  01:58
+Installing 6/6… █████▍                27%  1.6 MB/s  02:01
+Installing 6/6… █████▍                27%  1.6 MB/s  02:01
+Installing 6/6… █████▍                27%  1.6 MB/s  02:01
+Installing 6/6… █████▍                27%  1.6 MB/s  02:01
+Installing 6/6… █████▌                28%  1.6 MB/s  01:58
+Installing 6/6… █████▌                28%  1.6 MB/s  01:58
+Installing 6/6… █████▌                28%  1.6 MB/s  01:58
+Installing 6/6… █████▌                28%  1.6 MB/s  02:00
+Installing 6/6… █████▌                28%  1.6 MB/s  02:00
+Installing 6/6… █████▌                28%  1.6 MB/s  02:03
+Installing 6/6… █████▊                29%  1.6 MB/s  01:57
+Installing 6/6… █████▊                29%  1.6 MB/s  01:59
+Installing 6/6… █████▊                29%  1.6 MB/s  01:59
+Installing 6/6… █████▊                29%  1.6 MB/s  01:59
+Installing 6/6… █████▊                29%  1.6 MB/s  01:59
+Installing 6/6… ██████                30%  1.6 MB/s  01:56
+Installing 6/6… ██████                30%  1.6 MB/s  01:56
+Installing 6/6… ██████                30%  1.6 MB/s  01:56
+Installing 6/6… ██████                30%  1.6 MB/s  01:59
+Installing 6/6… ██████                30%  1.6 MB/s  01:59
+Installing 6/6… ██████                30%  1.6 MB/s  01:59
+Installing 6/6… ██████                30%  1.6 MB/s  02:01
+Installing 6/6… ██████                30%  1.6 MB/s  02:01
+Installing 6/6… ██████                30%  1.6 MB/s  02:01
+Installing 6/6… ██████                30%  1.6 MB/s  02:01
+Installing 6/6… ██████                30%  1.6 MB/s  02:03
+Installing 6/6… ██████                30%  1.6 MB/s  02:03
+Installing 6/6… ██████                30%  1.6 MB/s  02:03
+Installing 6/6… ██████                30%  1.6 MB/s  02:06
+Installing 6/6… ██████                30%  1.6 MB/s  02:06
+Installing 6/6… ██████▏               31%  1.6 MB/s  02:00
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:02
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:02
+Installing 6/6… ██████▏               31%  1.6 MB/s  02:02
+Installing 6/6… ██████▏               31%  1.6 MB/s  02:02
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:04
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:06
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:06
+Installing 6/6… ██████▏               31%  1.5 MB/s  02:06
+Installing 6/6… ██████▍               32%  1.6 MB/s  02:01
+Installing 6/6… ██████▍               32%  1.5 MB/s  02:03
+Installing 6/6… ██████▍               32%  1.5 MB/s  02:03
+Installing 6/6… ██████▍               32%  1.6 MB/s  02:03
+Installing 6/6… ██████▍               32%  1.5 MB/s  02:05
+Installing 6/6… ██████▍               32%  1.6 MB/s  02:05
+Installing 6/6… ██████▌               33%  1.6 MB/s  01:59
+Installing 6/6… ██████▌               33%  1.6 MB/s  02:01
+Installing 6/6… ██████▌               33%  1.6 MB/s  02:01
+Installing 6/6… ██████▌               33%  1.6 MB/s  02:01
+Installing 6/6… ██████▌               33%  1.6 MB/s  02:01
+Installing 6/6… ██████▌               33%  1.6 MB/s  02:03
+Installing 6/6… ██████▊               34%  1.6 MB/s  01:58
+Installing 6/6… ██████▊               34%  1.6 MB/s  02:00
+Installing 6/6… ██████▊               34%  1.6 MB/s  02:00
+Installing 6/6… ██████▊               34%  1.6 MB/s  02:00
+Installing 6/6… ██████▊               34%  1.6 MB/s  02:02
+Installing 6/6… ███████               35%  1.6 MB/s  01:57
+Installing 6/6… ███████               35%  1.6 MB/s  01:57
+Installing 6/6… ███████               35%  1.6 MB/s  01:58
+Installing 6/6… ███████               35%  1.6 MB/s  01:58
+Installing 6/6… ███████               35%  1.6 MB/s  01:58
+Installing 6/6… ███████               35%  1.6 MB/s  01:58
+Installing 6/6… ███████               35%  1.6 MB/s  02:00
+Installing 6/6… ███████               35%  1.6 MB/s  02:00
+Installing 6/6… ███████               35%  1.6 MB/s  02:00
+Installing 6/6… ███████               35%  1.5 MB/s  02:02
+Installing 6/6… ███████               35%  1.6 MB/s  02:02
+Installing 6/6… ███████▏              36%  1.6 MB/s  01:57
+Installing 6/6… ███████▏              36%  1.5 MB/s  01:59
+Installing 6/6… ███████▏              36%  1.5 MB/s  01:59
+Installing 6/6… ███████▏              36%  1.5 MB/s  02:00
+Installing 6/6… ███████▏              36%  1.6 MB/s  02:00
+Installing 6/6… ███████▏              36%  1.6 MB/s  02:00
+Installing 6/6… ███████▍              37%  1.5 MB/s  01:57
+Installing 6/6… ███████▍              37%  1.6 MB/s  01:57
+Installing 6/6… ███████▍              37%  1.6 MB/s  01:57
+Installing 6/6… ███████▍              37%  1.5 MB/s  01:59
+Installing 6/6… ███████▍              37%  1.6 MB/s  01:59
+Installing 6/6… ███████▍              37%  1.6 MB/s  01:59
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:54
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:55
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:55
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:55
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:57
+Installing 6/6… ███████▌              38%  1.6 MB/s  01:59
+Installing 6/6… ███████▊              39%  1.6 MB/s  01:54
+Installing 6/6… ███████▊              39%  1.6 MB/s  01:54
+Installing 6/6… ███████▊              39%  1.6 MB/s  01:54
+Installing 6/6… ███████▊              39%  1.6 MB/s  01:55
+Installing 6/6… ███████▊              39%  1.6 MB/s  01:55
+Installing 6/6… ████████              40%  1.6 MB/s  01:51
+Installing 6/6… ████████              40%  1.6 MB/s  01:52
+Installing 6/6… ████████              40%  1.6 MB/s  01:52
+Installing 6/6… ████████              40%  1.6 MB/s  01:52
+Installing 6/6… ████████              40%  1.6 MB/s  01:54
+Installing 6/6… ████████              40%  1.6 MB/s  01:54
+Installing 6/6… ████████              40%  1.6 MB/s  01:54
+Installing 6/6… ████████              40%  1.6 MB/s  01:54
+Installing 6/6… ████████              40%  1.6 MB/s  01:55
+Installing 6/6… ████████              40%  1.6 MB/s  01:55
+Installing 6/6… ████████              40%  1.6 MB/s  01:55
+Installing 6/6… ████████              40%  1.5 MB/s  01:57
+Installing 6/6… ████████              40%  1.5 MB/s  01:57
+Installing 6/6… ████████              40%  1.5 MB/s  01:58
+Installing 6/6… ████████              40%  1.5 MB/s  01:58
+Installing 6/6… ████████              40%  1.5 MB/s  01:58
+Installing 6/6… ████████              40%  1.5 MB/s  02:00
+Installing 6/6… ████████              40%  1.5 MB/s  02:00
+Installing 6/6… ████████              40%  1.5 MB/s  02:00
+Installing 6/6… ████████              40%  1.5 MB/s  02:01
+Installing 6/6… ████████              40%  1.5 MB/s  02:01
+Installing 6/6… ████████              40%  1.5 MB/s  02:01
+Installing 6/6… ████████              40%  1.5 MB/s  02:03
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:58
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:58
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:58
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:59
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:59
+Installing 6/6… ████████▏             41%  1.5 MB/s  01:59
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:00
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:00
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:00
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:02
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:02
+Installing 6/6… ████████▏             41%  1.5 MB/s  02:02
+Installing 6/6… ████████▍             42%  1.5 MB/s  01:57
+Installing 6/6… ████████▍             42%  1.5 MB/s  01:58
+Installing 6/6… ████████▍             42%  1.5 MB/s  01:58
+Installing 6/6… ████████▍             42%  1.5 MB/s  01:58
+Installing 6/6… ████████▍             42%  1.5 MB/s  02:00
+Installing 6/6… ████████▍             42%  1.5 MB/s  02:00
+Installing 6/6… ████████▌             43%  1.5 MB/s  01:55
+Installing 6/6… ████████▌             43%  1.5 MB/s  01:56
+Installing 6/6… ████████▌             43%  1.5 MB/s  01:56
+Installing 6/6… ████████▌             43%  1.5 MB/s  01:56
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:52
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:53
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:53
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:53
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:54
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:54
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:54
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:55
+Installing 6/6… ████████▊             44%  1.5 MB/s  01:55
+Installing 6/6… █████████             45%  1.5 MB/s  01:51
+Installing 6/6… █████████             45%  1.5 MB/s  01:51
+Installing 6/6… █████████             45%  1.5 MB/s  01:52
+Installing 6/6… █████████             45%  1.5 MB/s  01:52
+Installing 6/6… █████████             45%  1.5 MB/s  01:52
+Installing 6/6… █████████             45%  1.5 MB/s  01:53
+Installing 6/6… █████████             45%  1.5 MB/s  01:53
+Installing 6/6… █████████             45%  1.5 MB/s  01:53
+Installing 6/6… █████████             45%  1.5 MB/s  01:54
+Installing 6/6… █████████             45%  1.5 MB/s  01:54
+Installing 6/6… █████████             45%  1.5 MB/s  01:54
+Installing 6/6… █████████             45%  1.5 MB/s  01:54
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:51
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:51
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:51
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:52
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:52
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:52
+Installing 6/6… █████████▏            46%  1.5 MB/s  01:53
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:49
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:49
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:49
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:50
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:50
+Installing 6/6… █████████▍            47%  1.5 MB/s  01:50
+Installing 6/6… █████████▌            48%  1.5 MB/s  01:47
+Installing 6/6… █████████▌            48%  1.5 MB/s  01:47
+Installing 6/6… █████████▌            48%  1.5 MB/s  01:47
+Installing 6/6… █████████▌            48%  1.5 MB/s  01:48
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:44
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:44
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:44
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:45
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:45
+Installing 6/6… █████████▊            49%  1.5 MB/s  01:45
+Installing 6/6… ██████████            50%  1.5 MB/s  01:42
+Installing 6/6… ██████████            50%  1.5 MB/s  01:42
+Installing 6/6… ██████████            50%  1.5 MB/s  01:42
+Installing 6/6… ██████████            50%  1.5 MB/s  01:43
+Installing 6/6… ██████████            50%  1.5 MB/s  01:43
+Installing 6/6… ██████████            50%  1.5 MB/s  01:43
+Installing 6/6… ██████████            50%  1.5 MB/s  01:43
+Installing 6/6… ██████████            50%  1.5 MB/s  01:44
+Installing 6/6… ██████████            50%  1.5 MB/s  01:44
+Installing 6/6… ██████████            50%  1.5 MB/s  01:44
+Installing 6/6… ██████████            50%  1.5 MB/s  01:45
+Installing 6/6… ██████████            50%  1.5 MB/s  01:45
+Installing 6/6… ██████████            50%  1.5 MB/s  01:45
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:41
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:41
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:41
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:41
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:42
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:42
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:42
+Installing 6/6… ██████████▏           51%  1.5 MB/s  01:43
+Installing 6/6… ██████████▍           52%  1.5 MB/s  01:39
+Installing 6/6… ██████████▍           52%  1.5 MB/s  01:39
+Installing 6/6… ██████████▍           52%  1.5 MB/s  01:40
+Installing 6/6… ██████████▍           52%  1.5 MB/s  01:40
+Installing 6/6… ██████████▍           52%  1.5 MB/s  01:40
+Installing 6/6… ██████████▌           53%  1.5 MB/s  01:36
+Installing 6/6… ██████████▌           53%  1.5 MB/s  01:37
+Installing 6/6… ██████████▌           53%  1.5 MB/s  01:37
+Installing 6/6… ██████████▌           53%  1.5 MB/s  01:37
+Installing 6/6… ██████████▌           53%  1.5 MB/s  01:38
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:34
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:34
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:35
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:35
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:35
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:35
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:36
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:36
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:36
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:37
+Installing 6/6… ██████████▊           54%  1.5 MB/s  01:37
+Installing 6/6… ███████████           55%  1.5 MB/s  01:33
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:34
+Installing 6/6… ███████████           55%  1.5 MB/s  01:35
+Installing 6/6… ███████████           55%  1.5 MB/s  01:35
+Installing 6/6… ███████████           55%  1.5 MB/s  01:35
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:32
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:32
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:32
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:32
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:33
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:33
+Installing 6/6… ███████████▏          56%  1.5 MB/s  01:33
+Installing 6/6… ███████████▍          57%  1.5 MB/s  01:30
+Installing 6/6… ███████████▍          57%  1.5 MB/s  01:30
+Installing 6/6… ███████████▍          57%  1.5 MB/s  01:30
+Installing 6/6… ███████████▍          57%  1.5 MB/s  01:31
+Installing 6/6… ███████████▍          57%  1.5 MB/s  01:31
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:27
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:27
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:28
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:28
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:28
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:29
+Installing 6/6… ███████████▌          58%  1.5 MB/s  01:29
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:25
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:26
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:27
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:27
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:27
+Installing 6/6… ███████████▊          59%  1.5 MB/s  01:28
+Installing 6/6… ████████████          60%  1.5 MB/s  01:24
+Installing 6/6… ████████████          60%  1.5 MB/s  01:24
+Installing 6/6… ████████████          60%  1.5 MB/s  01:24
+Installing 6/6… ████████████          60%  1.5 MB/s  01:25
+Installing 6/6… ████████████          60%  1.5 MB/s  01:25
+Installing 6/6… ████████████          60%  1.5 MB/s  01:25
+Installing 6/6… ████████████          60%  1.5 MB/s  01:26
+Installing 6/6… ████████████          60%  1.5 MB/s  01:26
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:22
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:23
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:23
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:23
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:23
+Installing 6/6… ████████████▏         61%  1.5 MB/s  01:23
+Installing 6/6… ████████████▍         62%  1.5 MB/s  01:20
+Installing 6/6… ████████████▍         62%  1.5 MB/s  01:20
+Installing 6/6… ████████████▍         62%  1.5 MB/s  01:20
+Installing 6/6… ████████████▍         62%  1.5 MB/s  01:20
+Installing 6/6… ████████████▍         62%  1.5 MB/s  01:20
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▌         63%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:15
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:15
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:15
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:16
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:16
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:16
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:16
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:17
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:18
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:19
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:19
+Installing 6/6… ████████████▊         64%  1.5 MB/s  01:19
+Installing 6/6… █████████████         65%  1.5 MB/s  01:16
+Installing 6/6… █████████████         65%  1.5 MB/s  01:16
+Installing 6/6… █████████████         65%  1.5 MB/s  01:16
+Installing 6/6… █████████████         65%  1.5 MB/s  01:16
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:17
+Installing 6/6… █████████████         65%  1.5 MB/s  01:18
+Installing 6/6… █████████████         65%  1.5 MB/s  01:18
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:14
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:14
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:15
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:15
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:15
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:15
+Installing 6/6… █████████████▏        66%  1.5 MB/s  01:15
+Installing 6/6… █████████████▍        67%  1.5 MB/s  01:12
+Installing 6/6… █████████████▍        67%  1.5 MB/s  01:12
+Installing 6/6… █████████████▍        67%  1.5 MB/s  01:12
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:09
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:09
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:10
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:10
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:10
+Installing 6/6… █████████████▌        68%  1.5 MB/s  01:10
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:07
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:08
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:08
+Installing 6/6… █████████████▊        69%  1.5 MB/s  01:08
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:05
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:05
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:05
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████        70%  1.5 MB/s  01:06
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:04
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:05
+Installing 6/6… ██████████████▏       71%  1.5 MB/s  01:05
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:02
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:02
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:02
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:02
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:02
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▍       72%  1.5 MB/s  01:03
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:00
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:00
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:01
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:01
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:01
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:01
+Installing 6/6… ██████████████▌       73%  1.5 MB/s  01:01
+Installing 6/6… ██████████████▊       74%  1.5 MB/s  00:58
+Installing 6/6… ██████████████▊       74%  1.5 MB/s  00:58
+Installing 6/6… ██████████████▊       74%  1.5 MB/s  00:58
+Installing 6/6… ██████████████▊       74%  1.5 MB/s  00:58
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:55
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:56
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:56
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:56
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:56
+Installing 6/6… ███████████████       75%  1.5 MB/s  00:56
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:53
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:53
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:53
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:53
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:53
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▏      76%  1.5 MB/s  00:54
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:51
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:51
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:51
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▍      77%  1.5 MB/s  00:52
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:49
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:49
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:49
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:49
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:50
+Installing 6/6… ███████████████▌      78%  1.5 MB/s  00:50
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ███████████████▊      79%  1.5 MB/s  00:47
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████      80%  1.5 MB/s  00:45
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▏     81%  1.5 MB/s  00:43
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▍     82%  1.5 MB/s  00:41
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▌     83%  1.5 MB/s  00:38
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… ████████████████▊     84%  1.5 MB/s  00:36
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████     85%  1.5 MB/s  00:34
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:31
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:31
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:31
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:31
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:31
+Installing 6/6… █████████████████▏    86%  1.5 MB/s  00:32
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:29
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▍    87%  1.5 MB/s  00:30
+Installing 6/6… █████████████████▌    88%  1.5 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.5 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.5 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▌    88%  1.4 MB/s  00:27
+Installing 6/6… █████████████████▊    89%  1.5 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.4 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.4 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.5 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.4 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.4 MB/s  00:25
+Installing 6/6… █████████████████▊    89%  1.5 MB/s  00:25
+Installing 6/6… ██████████████████    90%  1.4 MB/s  00:23
+Installing 6/6… ██████████████████    90%  1.5 MB/s  00:23
+Installing 6/6… ██████████████████    90%  1.5 MB/s  00:23
+Installing 6/6… ██████████████████    90%  1.5 MB/s  00:23
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▏   91%  1.5 MB/s  00:20
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▍   92%  1.5 MB/s  00:18
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▌   93%  1.5 MB/s  00:16
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ██████████████████▊   94%  1.5 MB/s  00:13
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.5 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████   95%  1.4 MB/s  00:11
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▏  96%  1.4 MB/s  00:09
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▍  97%  1.4 MB/s  00:07
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▌  98%  1.4 MB/s  00:04
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ███████████████████▊  99%  1.4 MB/s  00:02
+Installing 6/6… ████████████████████ 100%  1.4 MB/s  00:00
+Installing 6/6… ████████████████████ 100%  1.4 MB/s  00:00
+Installing 6/6… ████████████████████ 100%  1.4 MB/s  00:00
+Installation complete.
+
+com.ml4w.calendar permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	com.ml4w.calendar	master	i	calendar1-origin	0 bytes
+
+
+Installing…
+Installation complete.
+
+com.ml4w.welcome permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	com.ml4w.welcome	master	i	welcome1-origin	0 bytes
+
+
+Installing…
+Installation complete.
+
+com.ml4w.settings permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	com.ml4w.settings	master	i	settings1-origin	0 bytes
+
+
+Installing…
+Installation complete.
+
+com.ml4w.sidebar permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	com.ml4w.sidebar	master	i	sidebar1-origin	0 bytes
+
+
+Installing…
+Installation complete.
+
+com.ml4w.hyprlandsettings permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	com.ml4w.hyprlandsettings	master	i	hyprlandsettings1-origin	0 bytes
+
+
+Installing…
+Installation complete.
+
+# ------------------------------------------------------
+# Run Hyprland Settings App
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Finalizing
+# ------------------------------------------------------
+
+20250328003230 SUCCESS platform.sh with arch created
+20250328003308 MESSAGE NetworkManager.service already running.
+20250328003308 MESSAGE bluetooth.service already running.
+20250328003308 SUCCESS Clean up done
+
+# ------------------------------------------------------
+# Post Script
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Reboot
+# ------------------------------------------------------
+

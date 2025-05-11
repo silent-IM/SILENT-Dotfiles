@@ -1,0 +1,176 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20250328001506 MESSAGE Installation started
+20250328001506 MESSAGE Initial installation of ML4W Dotfiles started.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20250328001507 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20250328001507 MESSAGE pacman-contrib is already installed.
+20250328001507 MESSAGE wget is already installed.
+20250328001507 MESSAGE zip is already installed.
+20250328001508 MESSAGE unzip is already installed.
+20250328001508 MESSAGE gum is already installed.
+20250328001508 MESSAGE rsync is already installed.
+20250328001508 MESSAGE git is already installed.
+20250328001508 MESSAGE figlet is already installed.
+20250328001508 MESSAGE sed is already installed.
+20250328001508 MESSAGE vim is already installed.
+20250328001508 MESSAGE xdg-user-dirs is already installed.
+20250328001508 MESSAGE man-pages is already installed.
+20250328001508 MESSAGE networkmanager is already installed.
+20250328001509 MESSAGE Installing python-pip...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (6)                New Version  Net Change  Download Size
+
+extra/python-attrs         23.2.0-4       0.54 MiB       0.10 MiB
+extra/python-cffi          1.17.1-2       1.34 MiB       0.27 MiB
+extra/python-cryptography  44.0.2-1       4.99 MiB       1.13 MiB
+extra/python-filelock      3.18.0-1       0.13 MiB       0.03 MiB
+extra/python-pycparser     2.22-3         1.69 MiB       0.22 MiB
+extra/python-pip           25.0.1-1      15.92 MiB       2.79 MiB
+
+Total Download Size:    4.54 MiB
+Total Installed Size:  24.60 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ python-pip-25.0.1-1-any downloading...
+ python-cryptography-44.0.2-1-x86_64 downloading...
+ python-cffi-1.17.1-2-x86_64 downloading...
+ python-pycparser-2.22-3-any downloading...
+ python-attrs-23.2.0-4-any downloading...
+ python-filelock-3.18.0-1-any downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing python-attrs...
+installing python-pycparser...
+installing python-cffi...
+Optional dependencies for python-cffi
+    python-setuptools: "limited api" version checking in cffi.setuptools_ext [installed]
+installing python-cryptography...
+installing python-filelock...
+installing python-pip...
+:: Running post-transaction hooks...
+(1/1) Arming ConditionNeedsUpdate...
+20250328001512 SUCCESS python-pip installed successfully.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20250328001515 MESSAGE Installation started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20250328001515 MESSAGE yay is installed
+20250328001515 MESSAGE paru is installed
+20250328001516 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20250328001516 MESSAGE Checking for rofi-lbonn-wayland
+20250328001516 MESSAGE Checking for hypridle-git
+20250328001516 MESSAGE Removing hypridle-git...
+checking dependencies...
+error: failed to prepare transaction (could not satisfy dependencies)
+:: removing hypridle-git breaks dependency 'hypridle-git' required by hyprland-meta-git
+:: removing hypridle-git breaks dependency 'hypridle' required by ml4w-hyprland
+20250328001516 SUCCESS hypridle-git uninstalled.
+20250328001516 SUCCESS hypridle can now be installed.
+20250328001516 MESSAGE Checking for hyprlock-git
+20250328001516 MESSAGE Removing hyprlock-git...
+checking dependencies...
+error: failed to prepare transaction (could not satisfy dependencies)
+:: removing hyprlock-git breaks dependency 'hyprlock-git' required by hyprland-meta-git
+:: removing hyprlock-git breaks dependency 'hyprlock' required by ml4w-hyprland
+20250328001517 SUCCESS hyprlock-git uninstalled.
+20250328001517 SUCCESS hyprlock can now be installed.
+20250328001517 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20250328001517 MESSAGE hyprland is already installed.
+20250328001517 MESSAGE Installing hyprpaper...
+resolving dependencies...
+looking for conflicting packages...
+:: hyprgraphics-0.1.2-1 and hyprgraphics-git-0.1.2.r2.g175c6b29-1 are in conflict. Remove hyprgraphics-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: hyprgraphics-0.1.2-1 and hyprgraphics-git-0.1.2.r2.g175c6b29-1 are in conflict
+20250328001517 ERROR hyprpaper installation failed. Please install hyprpaper manually.
+20250328001518 MESSAGE Installing hyprlock...
+resolving dependencies...
+looking for conflicting packages...
+:: hyprgraphics-0.1.2-1 and hyprgraphics-git-0.1.2.r2.g175c6b29-1 are in conflict. Remove hyprgraphics-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: hyprgraphics-0.1.2-1 and hyprgraphics-git-0.1.2.r2.g175c6b29-1 are in conflict
+20250328001518 ERROR hyprlock installation failed. Please install hyprlock manually.
+20250328001518 MESSAGE Installing hypridle...
+resolving dependencies...
+looking for conflicting packages...
+:: hypridle-0.1.5-4 and hypridle-git-0.1.5.r8.g71e875e4-1 are in conflict. Remove hypridle-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: hypridle-0.1.5-4 and hypridle-git-0.1.5.r8.g71e875e4-1 are in conflict
+20250328001519 ERROR hypridle installation failed. Please install hypridle manually.
+20250328001519 MESSAGE Installing hyprpicker...
+resolving dependencies...
+looking for conflicting packages...
+:: hyprpicker-0.4.3-1 and hyprpicker-git-0.4.3.r0.09101f7-1 are in conflict. Remove hyprpicker-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: hyprpicker-0.4.3-1 and hyprpicker-git-0.4.3.r0.09101f7-1 are in conflict
+20250328001519 ERROR hyprpicker installation failed. Please install hyprpicker manually.
+20250328001519 MESSAGE noto-fonts is already installed.
+20250328001520 MESSAGE noto-fonts-emoji is already installed.
+20250328001520 MESSAGE noto-fonts-cjk is already installed.
+20250328001520 MESSAGE Installing noto-fonts-extra...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)             New Version     Net Change  Download Size
+
+extra/noto-fonts-extra  1:2025.03.01-1  327.39 MiB      65.72 MiB
+
+Total Download Size:    65.72 MiB
+Total Installed Size:  327.39 MiB
+
+:: Proceed with installation? [Y/n] 
+:: Retrieving packages...
+ noto-fonts-extra-1:2025.03.01-1-any downloading...
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+installing noto-fonts-extra...
+:: Running post-transaction hooks...
+(1/2) Arming ConditionNeedsUpdate...
+(2/2) Updating fontconfig cache...
+
+Interrupt signal received
+[?25herror: command terminated by signal 2: Interrupt
+20250328001602 SUCCESS noto-fonts-extra installed successfully.

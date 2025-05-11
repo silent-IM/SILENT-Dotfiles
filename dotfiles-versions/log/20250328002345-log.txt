@@ -1,0 +1,1432 @@
+
+# ------------------------------------------------------
+# Installation
+# ------------------------------------------------------
+
+20250328002345 MESSAGE Installation started
+20250328002345 MESSAGE Initial installation of ML4W Dotfiles started.
+
+# ------------------------------------------------------
+# Platform
+# ------------------------------------------------------
+
+20250328002346 MESSAGE Installation on Arch based platform
+
+# ------------------------------------------------------
+# Required packages
+# ------------------------------------------------------
+
+20250328002346 MESSAGE pacman-contrib is already installed.
+20250328002346 MESSAGE wget is already installed.
+20250328002347 MESSAGE zip is already installed.
+20250328002347 MESSAGE unzip is already installed.
+20250328002347 MESSAGE gum is already installed.
+20250328002347 MESSAGE rsync is already installed.
+20250328002347 MESSAGE git is already installed.
+20250328002347 MESSAGE figlet is already installed.
+20250328002347 MESSAGE sed is already installed.
+20250328002347 MESSAGE vim is already installed.
+20250328002347 MESSAGE xdg-user-dirs is already installed.
+20250328002347 MESSAGE man-pages is already installed.
+20250328002348 MESSAGE networkmanager is already installed.
+20250328002348 MESSAGE python-pip is already installed.
+
+# ------------------------------------------------------
+# Confirm installation/update
+# ------------------------------------------------------
+
+20250328002350 MESSAGE Installation started
+
+# ------------------------------------------------------
+# AUR
+# ------------------------------------------------------
+
+20250328002350 MESSAGE yay is installed
+20250328002350 MESSAGE paru is installed
+20250328002351 MESSAGE Using yay as AUR Helper
+
+# ------------------------------------------------------
+# Remove old packages
+# ------------------------------------------------------
+
+20250328002351 MESSAGE Checking for rofi-lbonn-wayland
+20250328002351 MESSAGE Checking for hypridle-git
+20250328002351 MESSAGE Checking for hyprlock-git
+20250328002351 MESSAGE Checking for bibata-cursor-theme
+
+# ------------------------------------------------------
+# Packages
+# ------------------------------------------------------
+
+20250328002351 MESSAGE hyprland is already installed.
+20250328002352 MESSAGE hyprpaper is already installed.
+20250328002352 MESSAGE hyprlock is already installed.
+20250328002352 MESSAGE hypridle is already installed.
+20250328002352 MESSAGE hyprpicker is already installed.
+20250328002352 MESSAGE noto-fonts is already installed.
+20250328002352 MESSAGE noto-fonts-emoji is already installed.
+20250328002352 MESSAGE noto-fonts-cjk is already installed.
+20250328002352 MESSAGE noto-fonts-extra is already installed.
+20250328002352 MESSAGE xdg-desktop-portal-hyprland is already installed.
+20250328002352 MESSAGE libnotify is already installed.
+20250328002353 MESSAGE Installing kitty...
+resolving dependencies...
+looking for conflicting packages...
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict. Remove kitty-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict
+20250328002353 ERROR kitty installation failed. Please install kitty manually.
+20250328002353 MESSAGE qt5-wayland is already installed.
+20250328002353 MESSAGE qt6-wayland is already installed.
+20250328002353 MESSAGE uwsm is already installed.
+20250328002353 MESSAGE fastfetch is already installed.
+20250328002354 MESSAGE xdg-desktop-portal-gtk is already installed.
+20250328002354 MESSAGE eza is already installed.
+20250328002354 MESSAGE python-pip is already installed.
+20250328002354 MESSAGE python-gobject is already installed.
+20250328002354 MESSAGE python-screeninfo is already installed.
+20250328002354 MESSAGE tumbler is already installed.
+20250328002354 MESSAGE brightnessctl is already installed.
+20250328002354 MESSAGE nm-connection-editor is already installed.
+20250328002354 MESSAGE network-manager-applet is already installed.
+20250328002355 MESSAGE gtk4 is already installed.
+20250328002355 MESSAGE libadwaita is already installed.
+20250328002355 MESSAGE fuse2 is already installed.
+20250328002355 MESSAGE imagemagick is already installed.
+20250328002355 MESSAGE jq is already installed.
+20250328002355 MESSAGE xclip is already installed.
+20250328002355 MESSAGE Installing kitty...
+resolving dependencies...
+looking for conflicting packages...
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict. Remove kitty-git? [y/N] error: unresolvable package conflicts detected
+error: failed to prepare transaction (conflicting dependencies)
+
+:: kitty-0.40.1-1 and kitty-git-0.40.1.r66.gf1b90f6ce-1 are in conflict
+20250328002356 ERROR kitty installation failed. Please install kitty manually.
+20250328002356 MESSAGE neovim is already installed.
+20250328002356 MESSAGE htop is already installed.
+20250328002356 MESSAGE python-pywal is already installed.
+20250328002356 MESSAGE pinta is already installed.
+20250328002356 MESSAGE blueman is already installed.
+20250328002356 MESSAGE grim is already installed.
+20250328002356 MESSAGE slurp is already installed.
+20250328002357 MESSAGE cliphist is already installed.
+20250328002357 MESSAGE nwg-look is already installed.
+20250328002357 MESSAGE qt6ct is already installed.
+20250328002357 MESSAGE waybar is already installed.
+20250328002357 MESSAGE rofi-wayland is already installed.
+20250328002357 MESSAGE polkit-gnome is already installed.
+20250328002357 MESSAGE zsh is already installed.
+20250328002357 MESSAGE zsh-completions is already installed.
+20250328002357 MESSAGE fzf is already installed.
+20250328002357 MESSAGE pavucontrol is already installed.
+20250328002358 MESSAGE papirus-icon-theme is already installed.
+20250328002358 MESSAGE breeze is already installed.
+20250328002358 MESSAGE flatpak is already installed.
+20250328002358 MESSAGE swaync is already installed.
+20250328002358 MESSAGE gvfs is already installed.
+20250328002358 MESSAGE wlogout is already installed.
+20250328002358 MESSAGE hyprshade is already installed.
+20250328002358 MESSAGE Installing waypaper with custom script...
+Sync Explicit (1): waypaper-git-2.5.r7.g56b6607-1
+warning: waypaper-git-2.5.r7.g56b6607-1 is up to date -- reinstalling
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)               Old Version        New Version        Net Change
+
+chaotic-aur/waypaper-git  2.5.r7.g56b6607-1  2.5.r7.g56b6607-1    0.00 MiB
+
+Total Installed Size:  0.43 MiB
+Net Upgrade Size:      0.00 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+:: Processing package changes...
+reinstalling waypaper-git...
+:: Running post-transaction hooks...
+(1/4) Arming ConditionNeedsUpdate...
+(2/4) Updating icon theme caches...
+(3/4) Checking which packages need to be rebuilt
+(4/4) Updating the desktop file MIME type cache...
+20250328002401 MESSAGE grimblast-git is already installed.
+20250328002401 MESSAGE Installing bibata-cursor-theme-bin with custom script...
+AUR Explicit (1): bibata-cursor-theme-bin-2.0.7-1
+:: [1mPKGBUILD up to date, skipping download: bibata-cursor-theme-bin[0m
+  1 bibata-cursor-theme-bin                  (Build Files Exist)
+==> Packages to cleanBuild?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+  1 bibata-cursor-theme-bin                  (Build Files Exist)
+==> Diffs to show?
+==> [N]one [A]ll [Ab]ort [I]nstalled [No]tInstalled or (1 2 3, 1-3, ^4)
+==> 
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:24:04 AM EAT)
+==> Retrieving sources...
+  -> Found bibata-cursor-theme-2.0.7.tar.xz
+==> WARNING: Skipping verification of source file PGP signatures.
+==> Validating source files with sha256sums...
+    bibata-cursor-theme-2.0.7.tar.xz ... Passed
+:: [1m(1/1) Parsing SRCINFO: bibata-cursor-theme-bin[0m
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:24:05 AM EAT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> Retrieving sources...
+  -> Found bibata-cursor-theme-2.0.7.tar.xz
+==> Validating source files with sha256sums...
+    bibata-cursor-theme-2.0.7.tar.xz ... Passed
+==> Removing existing $srcdir/ directory...
+==> Extracting sources...
+  -> Extracting bibata-cursor-theme-2.0.7.tar.xz with bsdtar
+==> Sources are ready.
+ -> bibata-cursor-theme-bin-2.0.7-1 already made -- skipping build
+==> Making package: bibata-cursor-theme-bin 2.0.7-1 (Fri 28 Mar 2025 12:24:10 AM EAT)
+==> Checking runtime dependencies...
+==> Checking buildtime dependencies...
+==> WARNING: Using existing $srcdir/ tree
+==> Sources are ready.
+loading packages...
+resolving dependencies...
+looking for conflicting packages...
+
+Package (1)              New Version  Net Change
+
+bibata-cursor-theme-bin  2.0.7-1      321.65 MiB
+
+Total Installed Size:  321.65 MiB
+
+:: Proceed with installation? [Y/n] 
+checking keyring...
+checking package integrity...
+loading package files...
+checking for file conflicts...
+error: failed to commit transaction (conflicting files)
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursor.theme exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/00000000000000020006000e7e9ffc3f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/00008160000006810000408080010102 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/028006030e0e7ebffc7f7070c0600140 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/03b6e0fcb3499374a867c041f52298f0 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/08e8e1c95fe2fc01f976f1e063a24ccd exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/1081e37283d90000800003c07f3ef6bf exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/14fef782d02440884392942c1120523 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/2870a09082c103050810ffdffffe0204 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/3085a0e285430894940527032f8b26df exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/3ecb610c1bf2410f44200f48c40d3599 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/4498f0e0c1937ffe01fd06f973665830 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/5c6cd98b3f3ebcb1f9c7f1c204630408 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/6407b0e94181790501fd1e167b474872 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/640fb0e74195791501fd1ed57b41487f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/9081237383d90e509aa00f00170e968f exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/9d800788f1b08800ae810202380a0822 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/X_cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/a2a266d0498c3104214a47bd64ab0fc8 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/alias exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/all-scroll exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/b66166c04f8c3109214a4fbd64a50fc8 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bd_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_left_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_right_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/bottom_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/c7088f0f3e6c8088236ef8e1e3e70000 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cell exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/center_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/circle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/closedhand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/col-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/color-picker exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/context-menu exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/copy exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/cross_reverse exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/crossed_circle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/crosshair exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/d9ce0ab605698f320427677b458ad60b exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/default exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/diamond_cross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-ask exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-copy exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-link exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd-none exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dnd_no_drop exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dot_box_mask exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/dotbox exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/down-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft_large exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draft_small exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/draped_box exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/e-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/e29285e634086352946a0e7090d73106 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ew-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fcf1c3c7cd4491d801f1e1c78f100000 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fcf21c00b30f7e3f83fe0dfd12e71cff exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fd_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/fleur exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/forbidden exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/grab exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/grabbing exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/h_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/hand1 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/hand2 exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/help exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ibeam exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/icon exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr_help exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_ptr_watch exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/left_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/link exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ll_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/lr_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/n-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ne-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nesw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/no-drop exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/not-allowed exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ns-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/nwse-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/openhand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pencil exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pirate exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/plus exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointer exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointer-move exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/pointing_hand exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/progress exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/question_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_ptr exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/right_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/row-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/s-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_down_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_h_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_left_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_right_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_up_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sb_v_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/se-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size-hor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size-ver exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_all exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_bdiag exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_fdiag exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_hor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/size_ver exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/split_h exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/split_v exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/sw-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/target exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/tcross exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/text exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_left_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_left_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_right_corner exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_side exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/top_tee exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ul_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/up-arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/ur_angle exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/v_double_arrow exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/vertical-text exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/w-resize exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/wait exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/watch exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/wayland-cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/whats_this exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/x-cursor exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/xterm exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/zoom-in exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/cursors/zoom-out exists in filesystem
+bibata-cursor-theme-bin: /usr/share/icons/Bibata-Modern-Ice/index.theme exists in filesystem
+Errors occurred, no packages were upgraded.
+ -> error installing: [/home/ian/.cache/yay/bibata-cursor-theme-bin/bibata-cursor-theme-bin-2.0.7-1-any.pkg.tar.zst] - exit status 1
+20250328002410 MESSAGE pacseek is already installed.
+20250328002410 MESSAGE otf-font-awesome is already installed.
+20250328002410 MESSAGE ttf-fira-sans is already installed.
+20250328002410 MESSAGE ttf-fira-code is already installed.
+20250328002411 MESSAGE ttf-firacode-nerd is already installed.
+20250328002411 MESSAGE ttf-dejavu is already installed.
+20250328002411 MESSAGE nwg-dock-hyprland is already installed.
+20250328002411 MESSAGE oh-my-posh-bin is already installed.
+20250328002411 MESSAGE checkupdates-with-aur is already installed.
+20250328002411 MESSAGE loupe is already installed.
+20250328002411 MESSAGE firefox is already installed.
+20250328002411 MESSAGE nautilus is already installed.
+20250328002411 MESSAGE nautilus-open-any-terminal is already installed.
+20250328002412 MESSAGE gnome-text-editor is already installed.
+20250328002412 MESSAGE gnome-calculator is already installed.
+20250328002412 MESSAGE loupe is already installed.
+20250328002412 MESSAGE mpv is already installed.
+20250328002412 MESSAGE imv is already installed.
+20250328002412 MESSAGE ffmpegthumbnailer is already installed.
+20250328002412 MESSAGE JetBrainsMono fonts is already installed
+20250328002412 MESSAGE FiraCode fonts is already installed
+Font directories:
+	/home/ian/.local/share/flatpak/exports/share/fonts
+	/var/lib/flatpak/exports/share/fonts
+	/home/ian/.local/share/fonts
+	/usr/local/share/fonts
+	/usr/share/fonts
+	/home/ian/.fonts
+	/home/ian/.local/share/fonts/CascadiaCove
+	/home/ian/.local/share/fonts/JetBrains
+	/home/ian/.local/share/fonts/JetBrainsMonoNerd
+	/home/ian/.local/share/fonts/MapleMono
+	/home/ian/.local/share/fonts/MaterialDesign
+	/home/ian/.local/share/fonts/Monocraft Nerd Font Book
+	/home/ian/.local/share/fonts/Mononoki
+	/home/ian/.local/share/fonts/NotoSansCJK
+	/usr/local/share/fonts/NotoSansCJK
+	/usr/share/fonts/Adwaita
+	/usr/share/fonts/FiraCode
+	/usr/share/fonts/NotoSansCJK
+	/usr/share/fonts/OTF
+	/usr/share/fonts/TTF
+	/usr/share/fonts/adobe-source-han-sans
+	/usr/share/fonts/awesome-terminal-fonts
+	/usr/share/fonts/cantarell
+	/usr/share/fonts/encodings
+	/usr/share/fonts/liberation
+	/usr/share/fonts/noto
+	/usr/share/fonts/noto-cjk
+	/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove
+	/usr/share/fonts/encodings/large
+/home/ian/.local/share/flatpak/exports/share/fonts: skipping, no such directory
+/var/lib/flatpak/exports/share/fonts: skipping, no such directory
+/home/ian/.local/share/fonts: skipping, existing cache is valid: 0 fonts, 8 dirs
+/home/ian/.local/share/fonts/CascadiaCove: skipping, existing cache is valid: 4 fonts, 1 dirs
+/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove: skipping, existing cache is valid: 2 fonts, 0 dirs
+/home/ian/.local/share/fonts/JetBrains: skipping, existing cache is valid: 2 fonts, 0 dirs
+/home/ian/.local/share/fonts/JetBrainsMonoNerd: skipping, existing cache is valid: 96 fonts, 0 dirs
+/home/ian/.local/share/fonts/MapleMono: skipping, existing cache is valid: 6 fonts, 0 dirs
+/home/ian/.local/share/fonts/MaterialDesign: skipping, existing cache is valid: 1 fonts, 0 dirs
+/home/ian/.local/share/fonts/Monocraft Nerd Font Book: skipping, existing cache is valid: 13 fonts, 0 dirs
+/home/ian/.local/share/fonts/Mononoki: skipping, existing cache is valid: 4 fonts, 0 dirs
+/home/ian/.local/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/local/share/fonts: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/local/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/share/fonts: skipping, existing cache is valid: 0 fonts, 12 dirs
+/usr/share/fonts/Adwaita: skipping, existing cache is valid: 24 fonts, 0 dirs
+/usr/share/fonts/FiraCode: skipping, existing cache is valid: 18 fonts, 0 dirs
+/usr/share/fonts/NotoSansCJK: skipping, existing cache is valid: 10 fonts, 0 dirs
+/usr/share/fonts/OTF: skipping, existing cache is valid: 3 fonts, 0 dirs
+/usr/share/fonts/TTF: skipping, existing cache is valid: 492 fonts, 0 dirs
+/usr/share/fonts/adobe-source-han-sans: skipping, existing cache is valid: 21 fonts, 0 dirs
+/usr/share/fonts/awesome-terminal-fonts: skipping, existing cache is valid: 4 fonts, 0 dirs
+/usr/share/fonts/cantarell: skipping, existing cache is valid: 6 fonts, 0 dirs
+/usr/share/fonts/encodings: skipping, existing cache is valid: 0 fonts, 1 dirs
+/usr/share/fonts/encodings/large: skipping, existing cache is valid: 0 fonts, 0 dirs
+/usr/share/fonts/liberation: skipping, existing cache is valid: 12 fonts, 0 dirs
+/usr/share/fonts/noto: skipping, existing cache is valid: 2137 fonts, 0 dirs
+/usr/share/fonts/noto-cjk: skipping, existing cache is valid: 80 fonts, 0 dirs
+/home/ian/.fonts: skipping, no such directory
+/home/ian/.local/share/fonts/CascadiaCove: skipping, looped directory detected
+/home/ian/.local/share/fonts/JetBrains: skipping, looped directory detected
+/home/ian/.local/share/fonts/JetBrainsMonoNerd: skipping, looped directory detected
+/home/ian/.local/share/fonts/MapleMono: skipping, looped directory detected
+/home/ian/.local/share/fonts/MaterialDesign: skipping, looped directory detected
+/home/ian/.local/share/fonts/Monocraft Nerd Font Book: skipping, looped directory detected
+/home/ian/.local/share/fonts/Mononoki: skipping, looped directory detected
+/home/ian/.local/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/local/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/share/fonts/Adwaita: skipping, looped directory detected
+/usr/share/fonts/FiraCode: skipping, looped directory detected
+/usr/share/fonts/NotoSansCJK: skipping, looped directory detected
+/usr/share/fonts/OTF: skipping, looped directory detected
+/usr/share/fonts/TTF: skipping, looped directory detected
+/usr/share/fonts/adobe-source-han-sans: skipping, looped directory detected
+/usr/share/fonts/awesome-terminal-fonts: skipping, looped directory detected
+/usr/share/fonts/cantarell: skipping, looped directory detected
+/usr/share/fonts/encodings: skipping, looped directory detected
+/usr/share/fonts/liberation: skipping, looped directory detected
+/usr/share/fonts/noto: skipping, looped directory detected
+/usr/share/fonts/noto-cjk: skipping, looped directory detected
+/home/ian/.local/share/fonts/CascadiaCove/CascadiaCove: skipping, looped directory detected
+/usr/share/fonts/encodings/large: skipping, looped directory detected
+/var/cache/fontconfig: not cleaning unwritable cache directory
+/home/ian/.cache/fontconfig: cleaning cache directory
+/home/ian/.fontconfig: not cleaning non-existent cache directory
+fc-cache: succeeded
+
+# ------------------------------------------------------
+# Diagnosis
+# ------------------------------------------------------
+
+20250328002412 SUCCESS Required commands checked
+
+# ------------------------------------------------------
+# Dotfiles
+# ------------------------------------------------------
+
+20250328002412 MESSAGE The ML4W Dotfiles will be installed in ~/dotfiles
+20250328002414 SUCCESS ML4W Dotfiles will be installed in ~/dotfiles
+
+# ------------------------------------------------------
+# Backup
+# ------------------------------------------------------
+
+20250328002416 SUCCESS Current backup archived in /home/ian/.ml4w-hyprland/archive/20250328002414
+20250328002416 SUCCESS Backup of /home/ian/.bashrc created in /home/ian/.ml4w-hyprland/backup
+20250328002416 SUCCESS Backup of /home/ian/.zshrc created in /home/ian/.ml4w-hyprland/backup
+20250328002416 SUCCESS Backup of /home/ian/.config/hypr created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup of /home/ian/.config/kitty created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup of /home/ian/.config/ml4w created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup of /home/ian/.config/rofi created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup of /home/ian/.config/waybar created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup of /home/ian/.config/wlogout created in /home/ian/.ml4w-hyprland/backup/config/
+20250328002416 SUCCESS Backup created in /home/ian/.ml4w-hyprland/backup
+
+# ------------------------------------------------------
+# Preparation
+# ------------------------------------------------------
+
+20250328002416 MESSAGE Preparing temporary folders for the installation.
+20250328002416 SUCCESS The folder /home/ian/.ml4w-hyprland/2.9.8.2 already exists from previous installations.
+20250328002416 SUCCESS Clean build prepared for the installation.
+20250328002416 SUCCESS ML4W Dotfiles 2.9.8.2 successfully prepared in /home/ian/.ml4w-hyprland/2.9.8.2/
+20250328002416 SUCCESS hook.tpl created
+20250328002416 SUCCESS post.tpl created
+20250328002416 SUCCESS automation.tpl created
+20250328002416 SUCCESS activate.sh updated
+20250328002416 SUCCESS scripts.sh for 2.9.8.2 updated in /home/ian/.ml4w-hyprland/library
+20250328002416 SUCCESS AUR Helper updated with yay
+
+# ------------------------------------------------------
+# SDDM
+# ------------------------------------------------------
+
+20250328002416 MESSAGE You have already installed a display manager.
+20250328002418 MESSAGE PROCESS SKIPPED
+
+# ------------------------------------------------------
+# SDDM Theme
+# ------------------------------------------------------
+
+20250328002420 MESSAGE Installing sequoia
+wget: WGETRC points to /home/ian/.config/wgetrc, which couldn't be accessed because of error: No such file or directory.
+20250328002420 SUCCESS Download of sequoia complete
+unzip:  cannot find or open /home/ian/.ml4w/sequoia/main.zip, /home/ian/.ml4w/sequoia/main.zip.zip or /home/ian/.ml4w/sequoia/main.zip.ZIP.
+20250328002420 SUCCESS Unzip of sequoia complete
+20250328002420 SUCCESS sequoia copied to target location
+20250328002420 SUCCESS File /etc/sddm.conf.d/sddm.conf updated.
+20250328002420 SUCCESS Theme installed
+
+# ------------------------------------------------------
+# Before restore
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Restore
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Keyboard
+# ------------------------------------------------------
+
+20250328002420 MESSAGE Keyboard layout: us
+20250328002420 MESSAGE Keyboard variant: 
+20250328002422 SUCCESS Keyboard setup complete.
+
+# ------------------------------------------------------
+# Hook
+# ------------------------------------------------------
+
+20250328002424 MESSAGE .bashrc will be installed
+20250328002425 MESSAGE .zshrc will be installed
+
+# ------------------------------------------------------
+# Kitty
+# ------------------------------------------------------
+
+20250328002425 MESSAGE The script has detected a kitty folder in your ~/.config folder.
+20250328002425 MESSAGE You can keept it or replace it with the latest version of ML4W Dotfiles 2.9.8.2.
+20250328002426 MESSAGE ML4W Kitty configuration will be installed
+
+# ------------------------------------------------------
+# Neovim
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Wallpaper
+# ------------------------------------------------------
+
+20250328002426 MESSAGE /home/ian/wallpaper folder already exists.
+
+# ------------------------------------------------------
+# Protect
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Copy
+# ------------------------------------------------------
+
+20250328002426 MESSAGE The script will now remove existing directories and files from ~/.config/
+20250328002426 MESSAGE and copy your prepared configuration from /home/ian/.ml4w-hyprland/2.9.8.2 to ~/dotfiles
+20250328002426 MESSAGE Symbolic links will then be created from ~/dotfiles into your ~/.config/ directory.
+20250328002429 SUCCESS Copy started
+20250328002429 SUCCESS ~/dotfiles folder created.
+sending incremental file list
+./
+.Xresources
+.bashrc
+.gtkrc-2.0
+.zshrc
+.config/
+.config/bashrc/
+.config/bashrc/00-init
+.config/bashrc/10-aliases
+.config/bashrc/20-customization
+.config/bashrc/30-autostart
+.config/dunst/
+.config/dunst/dunstrc
+.config/fastfetch/
+.config/fastfetch/config.jsonc
+.config/gtk-3.0/
+.config/gtk-3.0/settings.ini
+.config/gtk-4.0/
+.config/gtk-4.0/settings.ini
+.config/hypr/
+.config/hypr/hypridle.conf
+.config/hypr/hyprland.conf
+.config/hypr/hyprlock.conf
+.config/hypr/hyprpaper.conf
+.config/hypr/conf/
+.config/hypr/conf/animation.conf
+.config/hypr/conf/autostart.conf
+.config/hypr/conf/cursor.conf
+.config/hypr/conf/custom.conf
+.config/hypr/conf/decoration.conf
+.config/hypr/conf/environment.conf
+.config/hypr/conf/keybinding.conf
+.config/hypr/conf/keyboard.conf
+.config/hypr/conf/layout.conf
+.config/hypr/conf/misc.conf
+.config/hypr/conf/ml4w.conf
+.config/hypr/conf/monitor.conf
+.config/hypr/conf/restorevariations.sh
+.config/hypr/conf/window.conf
+.config/hypr/conf/windowrule.conf
+.config/hypr/conf/workspace.conf
+.config/hypr/conf/animations/
+.config/hypr/conf/animations/animations-classic.conf
+.config/hypr/conf/animations/animations-dynamic.conf
+.config/hypr/conf/animations/animations-fast.conf
+.config/hypr/conf/animations/animations-high.conf
+.config/hypr/conf/animations/animations-moving.conf
+.config/hypr/conf/animations/default.conf
+.config/hypr/conf/animations/disabled.conf
+.config/hypr/conf/animations/standard.conf
+.config/hypr/conf/decorations/
+.config/hypr/conf/decorations/default.conf
+.config/hypr/conf/decorations/no-rounding-more-blur.conf
+.config/hypr/conf/decorations/no-rounding.conf
+.config/hypr/conf/decorations/rounding-all-blur-no-shadows.conf
+.config/hypr/conf/decorations/rounding-all-blur.conf
+.config/hypr/conf/decorations/rounding-more-blur.conf
+.config/hypr/conf/decorations/rounding.conf
+.config/hypr/conf/environments/
+.config/hypr/conf/environments/default.conf
+.config/hypr/conf/environments/kvm.conf
+.config/hypr/conf/environments/nvidia.conf
+.config/hypr/conf/keybindings/
+.config/hypr/conf/keybindings/default.conf
+.config/hypr/conf/keybindings/fr.conf
+.config/hypr/conf/layouts/
+.config/hypr/conf/layouts/default.conf
+.config/hypr/conf/layouts/laptop.conf
+.config/hypr/conf/monitors/
+.config/hypr/conf/monitors/1366x768.conf
+.config/hypr/conf/monitors/1440x1080.conf
+.config/hypr/conf/monitors/1600x900.conf
+.config/hypr/conf/monitors/1920x1080.conf
+.config/hypr/conf/monitors/1920x1200.conf
+.config/hypr/conf/monitors/2560x1440.conf
+.config/hypr/conf/monitors/2560x1440@120.conf
+.config/hypr/conf/monitors/2560x1440@120x125.conf
+.config/hypr/conf/monitors/3440x1440.conf
+.config/hypr/conf/monitors/default.conf
+.config/hypr/conf/monitors/highres.conf
+.config/hypr/conf/monitors/nwg-displays.conf
+.config/hypr/conf/windowrules/
+.config/hypr/conf/windowrules/default.conf
+.config/hypr/conf/windows/
+.config/hypr/conf/windows/border-1-reverse.conf
+.config/hypr/conf/windows/border-1.conf
+.config/hypr/conf/windows/border-2-reverse.conf
+.config/hypr/conf/windows/border-2.conf
+.config/hypr/conf/windows/border-3-reverse.conf
+.config/hypr/conf/windows/border-3.conf
+.config/hypr/conf/windows/border-4-reverse.conf
+.config/hypr/conf/windows/border-4.conf
+.config/hypr/conf/windows/default.conf
+.config/hypr/conf/windows/no-border-more-gaps.conf
+.config/hypr/conf/windows/no-border.conf
+.config/hypr/conf/workspaces/
+.config/hypr/conf/workspaces/default.conf
+.config/hypr/effects/
+.config/hypr/effects/wallpaper/
+.config/hypr/effects/wallpaper/blackwhite
+.config/hypr/effects/wallpaper/blackwhite-blur
+.config/hypr/effects/wallpaper/blackwhite-brightness40
+.config/hypr/effects/wallpaper/blackwhite-brightness60
+.config/hypr/effects/wallpaper/blackwhite-brightness80
+.config/hypr/effects/wallpaper/blur1
+.config/hypr/effects/wallpaper/blur1-brightness40
+.config/hypr/effects/wallpaper/blur1-brightness60
+.config/hypr/effects/wallpaper/blur1-brightness80
+.config/hypr/effects/wallpaper/blur2
+.config/hypr/effects/wallpaper/negate
+.config/hypr/effects/wallpaper/negate-brightness40
+.config/hypr/effects/wallpaper/negate-brightness60
+.config/hypr/effects/wallpaper/negate-brightness80
+.config/hypr/scripts/
+.config/hypr/scripts/cleanup.sh
+.config/hypr/scripts/disabledm.sh
+.config/hypr/scripts/gamemode.sh
+.config/hypr/scripts/gtk.sh
+.config/hypr/scripts/hypridle.sh
+.config/hypr/scripts/hyprshade.sh
+.config/hypr/scripts/init-wallpaper-engine.sh
+.config/hypr/scripts/keybindings.sh
+.config/hypr/scripts/loadconfig.sh
+.config/hypr/scripts/moveTo.sh
+.config/hypr/scripts/power.sh
+.config/hypr/scripts/restart-hypridle.sh
+.config/hypr/scripts/screenshot.sh
+.config/hypr/scripts/systeminfo.sh
+.config/hypr/scripts/toggle-animations.sh
+.config/hypr/scripts/toggleallfloat.sh
+.config/hypr/scripts/wallpaper-automation.sh
+.config/hypr/scripts/wallpaper-cache.sh
+.config/hypr/scripts/wallpaper-effects.sh
+.config/hypr/scripts/wallpaper-restore.sh
+.config/hypr/scripts/wallpaper.sh
+.config/hypr/scripts/xdg.sh
+.config/hypr/shaders/
+.config/hypr/shaders/blue-light-filter-25.glsl
+.config/hypr/shaders/blue-light-filter-50.glsl
+.config/hypr/shaders/blue-light-filter-75.glsl
+.config/hypr/shaders/invert-colors.glsl
+.config/kitty/
+.config/kitty/kitty.conf
+.config/ml4w/
+.config/ml4w/assets/
+.config/ml4w/assets/blank.png
+.config/ml4w/login/
+.config/ml4w/login/issue
+.config/ml4w/scripts/
+.config/ml4w/scripts/cliphist.sh
+.config/ml4w/scripts/figlet.sh
+.config/ml4w/scripts/installupdates.sh
+.config/ml4w/scripts/ml4w-autostart.sh
+.config/ml4w/scripts/nm-applet.sh
+.config/ml4w/scripts/sddm-wallpaper.sh
+.config/ml4w/scripts/shell.sh
+.config/ml4w/scripts/thunarterminal.sh
+.config/ml4w/scripts/updates.sh
+.config/ml4w/scripts/wlogout.sh
+.config/ml4w/scripts/arch/
+.config/ml4w/scripts/arch/cleanup.sh
+.config/ml4w/scripts/arch/installprinters.sh
+.config/ml4w/scripts/arch/installtimeshift.sh
+.config/ml4w/scripts/arch/lid-improvements.sh
+.config/ml4w/scripts/arch/pacman.sh
+.config/ml4w/scripts/arch/snapshot.sh
+.config/ml4w/scripts/arch/unlock-pacman.sh
+.config/ml4w/settings/
+.config/ml4w/settings/ai.sh
+.config/ml4w/settings/aur.sh
+.config/ml4w/settings/blur.sh
+.config/ml4w/settings/browser.sh
+.config/ml4w/settings/calculator.sh
+.config/ml4w/settings/calendar.sh
+.config/ml4w/settings/dotfiles-folder.sh
+.config/ml4w/settings/dunst_position.sh
+.config/ml4w/settings/editor.sh
+.config/ml4w/settings/email.sh
+.config/ml4w/settings/emojipicker.sh
+.config/ml4w/settings/eww-monitor.sh
+.config/ml4w/settings/filemanager.sh
+.config/ml4w/settings/hypridle_dpms_timeout.sh
+.config/ml4w/settings/hypridle_hyprlock_timeout.sh
+.config/ml4w/settings/hypridle_suspend_timeout.sh
+.config/ml4w/settings/hyprpaper.tpl
+.config/ml4w/settings/hyprpicker.sh
+.config/ml4w/settings/hyprshade.sh
+.config/ml4w/settings/installupdates.sh
+.config/ml4w/settings/ml4w-sidebar.sh
+.config/ml4w/settings/networkmanager.sh
+.config/ml4w/settings/printer-drivers.sh
+.config/ml4w/settings/rofi-border-radius.rasi
+.config/ml4w/settings/rofi-border.rasi
+.config/ml4w/settings/rofi-font.rasi
+.config/ml4w/settings/rofi_bordersize.sh
+.config/ml4w/settings/screenshot-editor.sh
+.config/ml4w/settings/screenshot-filename.sh
+.config/ml4w/settings/screenshot-folder.sh
+.config/ml4w/settings/software.sh
+.config/ml4w/settings/system-monitor.sh
+.config/ml4w/settings/terminal.sh
+.config/ml4w/settings/wallpaper-automation.sh
+.config/ml4w/settings/wallpaper-effect.sh
+.config/ml4w/settings/wallpaper-engine.sh
+.config/ml4w/settings/wallpaper-folder.sh
+.config/ml4w/settings/waybar-quicklinks.json
+.config/ml4w/settings/waybar_appmenu.sh
+.config/ml4w/settings/waybar_backlight.sh
+.config/ml4w/settings/waybar_chatgpt.sh
+.config/ml4w/settings/waybar_custom_timedateformat.sh
+.config/ml4w/settings/waybar_dateformat.sh
+.config/ml4w/settings/waybar_network.sh
+.config/ml4w/settings/waybar_quicklinks.sh
+.config/ml4w/settings/waybar_screenlock.sh
+.config/ml4w/settings/waybar_settings.sh
+.config/ml4w/settings/waybar_systray.sh
+.config/ml4w/settings/waybar_taskbar.sh
+.config/ml4w/settings/waybar_timeformat.sh
+.config/ml4w/settings/waybar_timezone.sh
+.config/ml4w/settings/waybar_toggle.sh
+.config/ml4w/settings/waybar_window.sh
+.config/ml4w/settings/waybar_workspaces.sh
+.config/ml4w/settings/wlogout-parameters.sh
+.config/ml4w/settings/sddm/
+.config/ml4w/settings/sddm/theme.tpl
+.config/ml4w/tpl/
+.config/ml4w/tpl/.zshrc
+.config/ml4w/version/
+.config/ml4w/version/compare.sh
+.config/ml4w/version/library.sh
+.config/ml4w/version/name
+.config/ml4w/version/update.sh
+.config/nvim/
+.config/nvim/init.vim
+.config/nwg-dock-hyprland/
+.config/nwg-dock-hyprland/launch.sh
+.config/nwg-dock-hyprland/style-dark.css
+.config/nwg-dock-hyprland/style-light.css
+.config/ohmyposh/
+.config/ohmyposh/EDM115-newline.omp.json
+.config/ohmyposh/zen.toml
+.config/qt6ct/
+.config/qt6ct/qt6ct.conf
+.config/rofi/
+.config/rofi/config-cliphist.rasi
+.config/rofi/config-compact.rasi
+.config/rofi/config-hyprshade.rasi
+.config/rofi/config-old.rasi
+.config/rofi/config-screenshot.rasi
+.config/rofi/config-short.rasi
+.config/rofi/config-themes.rasi
+.config/rofi/config.rasi
+.config/swaync/
+.config/swaync/config.json
+.config/swaync/style.css
+.config/vim/
+.config/vim/.vimrc
+.config/wal/
+.config/wal/templates/
+.config/wal/templates/colors-hyprland.conf
+.config/wal/templates/colors-rofi-pywal.rasi
+.config/wal/templates/colors-waybar.css
+.config/wal/templates/colors-wlogout.css
+.config/waybar/
+.config/waybar/launch.sh
+.config/waybar/modules.json
+.config/waybar/themeswitcher.sh
+.config/waybar/toggle.sh
+.config/waybar/themes/
+.config/waybar/themes/assets/
+.config/waybar/themes/assets/ai-icon-20.png
+.config/waybar/themes/assets/ai-icon.png
+.config/waybar/themes/assets/hyprland-icon-20.png
+.config/waybar/themes/assets/hyprland-icon.png
+.config/waybar/themes/assets/ml4w-icon-20.png
+.config/waybar/themes/assets/ml4w-icon-black.svg
+.config/waybar/themes/assets/ml4w-icon-dark.png
+.config/waybar/themes/assets/ml4w-icon-white.svg
+.config/waybar/themes/assets/ml4w-icon.png
+.config/waybar/themes/assets/ml4w-icon.svg
+.config/waybar/themes/assets/openai-black.svg
+.config/waybar/themes/assets/openai-white.svg
+.config/waybar/themes/assets/openai.svg
+.config/waybar/themes/default/
+.config/waybar/themes/default/config
+.config/waybar/themes/default/config.sh
+.config/waybar/themes/default/style.css
+.config/waybar/themes/ml4w-blur-bottom/
+.config/waybar/themes/ml4w-blur-bottom/config
+.config/waybar/themes/ml4w-blur-bottom/black/
+.config/waybar/themes/ml4w-blur-bottom/black/config.sh
+.config/waybar/themes/ml4w-blur-bottom/black/style.css
+.config/waybar/themes/ml4w-blur-bottom/colored/
+.config/waybar/themes/ml4w-blur-bottom/colored/config.sh
+.config/waybar/themes/ml4w-blur-bottom/colored/style.css
+.config/waybar/themes/ml4w-blur-bottom/dark/
+.config/waybar/themes/ml4w-blur-bottom/dark/config.sh
+.config/waybar/themes/ml4w-blur-bottom/dark/style.css
+.config/waybar/themes/ml4w-blur-bottom/light/
+.config/waybar/themes/ml4w-blur-bottom/light/config.sh
+.config/waybar/themes/ml4w-blur-bottom/light/style.css
+.config/waybar/themes/ml4w-blur-bottom/mixed/
+.config/waybar/themes/ml4w-blur-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-blur-bottom/mixed/style.css
+.config/waybar/themes/ml4w-blur-bottom/white/
+.config/waybar/themes/ml4w-blur-bottom/white/config.sh
+.config/waybar/themes/ml4w-blur-bottom/white/style.css
+.config/waybar/themes/ml4w-blur/
+.config/waybar/themes/ml4w-blur/config
+.config/waybar/themes/ml4w-blur/style.css
+.config/waybar/themes/ml4w-blur/black/
+.config/waybar/themes/ml4w-blur/black/config.sh
+.config/waybar/themes/ml4w-blur/black/style.css
+.config/waybar/themes/ml4w-blur/colored/
+.config/waybar/themes/ml4w-blur/colored/config.sh
+.config/waybar/themes/ml4w-blur/colored/style.css
+.config/waybar/themes/ml4w-blur/dark/
+.config/waybar/themes/ml4w-blur/dark/config.sh
+.config/waybar/themes/ml4w-blur/dark/style.css
+.config/waybar/themes/ml4w-blur/light/
+.config/waybar/themes/ml4w-blur/light/config.sh
+.config/waybar/themes/ml4w-blur/light/style.css
+.config/waybar/themes/ml4w-blur/mixed/
+.config/waybar/themes/ml4w-blur/mixed/config.sh
+.config/waybar/themes/ml4w-blur/mixed/style.css
+.config/waybar/themes/ml4w-blur/white/
+.config/waybar/themes/ml4w-blur/white/config.sh
+.config/waybar/themes/ml4w-blur/white/style.css
+.config/waybar/themes/ml4w-bottom/
+.config/waybar/themes/ml4w-bottom/config
+.config/waybar/themes/ml4w-bottom/black/
+.config/waybar/themes/ml4w-bottom/black/config.sh
+.config/waybar/themes/ml4w-bottom/black/style.css
+.config/waybar/themes/ml4w-bottom/colored/
+.config/waybar/themes/ml4w-bottom/colored/config.sh
+.config/waybar/themes/ml4w-bottom/colored/style.css
+.config/waybar/themes/ml4w-bottom/dark/
+.config/waybar/themes/ml4w-bottom/dark/config.sh
+.config/waybar/themes/ml4w-bottom/dark/style.css
+.config/waybar/themes/ml4w-bottom/light/
+.config/waybar/themes/ml4w-bottom/light/config.sh
+.config/waybar/themes/ml4w-bottom/light/style.css
+.config/waybar/themes/ml4w-bottom/mixed/
+.config/waybar/themes/ml4w-bottom/mixed/config.sh
+.config/waybar/themes/ml4w-bottom/mixed/style.css
+.config/waybar/themes/ml4w-bottom/white/
+.config/waybar/themes/ml4w-bottom/white/config.sh
+.config/waybar/themes/ml4w-bottom/white/style.css
+.config/waybar/themes/ml4w-minimal/
+.config/waybar/themes/ml4w-minimal/config
+.config/waybar/themes/ml4w-minimal/config.sh
+.config/waybar/themes/ml4w-minimal/style.css
+.config/waybar/themes/ml4w-modern/
+.config/waybar/themes/ml4w-modern/config
+.config/waybar/themes/ml4w-modern/style.css
+.config/waybar/themes/ml4w-modern/black/
+.config/waybar/themes/ml4w-modern/black/config.sh
+.config/waybar/themes/ml4w-modern/black/style.css
+.config/waybar/themes/ml4w-modern/colored/
+.config/waybar/themes/ml4w-modern/colored/config.sh
+.config/waybar/themes/ml4w-modern/colored/style.css
+.config/waybar/themes/ml4w-modern/dark/
+.config/waybar/themes/ml4w-modern/dark/config.sh
+.config/waybar/themes/ml4w-modern/dark/style.css
+.config/waybar/themes/ml4w-modern/light/
+.config/waybar/themes/ml4w-modern/light/config.sh
+.config/waybar/themes/ml4w-modern/light/style.css
+.config/waybar/themes/ml4w-modern/mixed/
+.config/waybar/themes/ml4w-modern/mixed/config.sh
+.config/waybar/themes/ml4w-modern/mixed/style.css
+.config/waybar/themes/ml4w-modern/white/
+.config/waybar/themes/ml4w-modern/white/config.sh
+.config/waybar/themes/ml4w-modern/white/style.css
+.config/waybar/themes/ml4w/
+.config/waybar/themes/ml4w/config
+.config/waybar/themes/ml4w/style.css
+.config/waybar/themes/ml4w/black/
+.config/waybar/themes/ml4w/black/config.sh
+.config/waybar/themes/ml4w/black/style.css
+.config/waybar/themes/ml4w/colored/
+.config/waybar/themes/ml4w/colored/config.sh
+.config/waybar/themes/ml4w/colored/style.css
+.config/waybar/themes/ml4w/dark/
+.config/waybar/themes/ml4w/dark/config.sh
+.config/waybar/themes/ml4w/dark/style.css
+.config/waybar/themes/ml4w/light/
+.config/waybar/themes/ml4w/light/config.sh
+.config/waybar/themes/ml4w/light/style.css
+.config/waybar/themes/ml4w/mixed/
+.config/waybar/themes/ml4w/mixed/config.sh
+.config/waybar/themes/ml4w/mixed/style.css
+.config/waybar/themes/ml4w/white/
+.config/waybar/themes/ml4w/white/config.sh
+.config/waybar/themes/ml4w/white/style.css
+.config/waybar/themes/starter/
+.config/waybar/themes/starter/config
+.config/waybar/themes/starter/config.sh
+.config/waybar/themes/starter/modules.json
+.config/waybar/themes/starter/style.css
+.config/waypaper/
+.config/waypaper/config.ini
+.config/wlogout/
+.config/wlogout/README.txt
+.config/wlogout/layout
+.config/wlogout/noise.png
+.config/wlogout/style.css
+.config/wlogout/icons/
+.config/wlogout/icons/hibernate.png
+.config/wlogout/icons/lock.png
+.config/wlogout/icons/logout.png
+.config/wlogout/icons/reboot.png
+.config/wlogout/icons/shutdown.png
+.config/wlogout/icons/suspend.png
+.config/xsettingsd/
+.config/xsettingsd/xsettingsd.conf
+.config/zshrc/
+.config/zshrc/00-init
+.config/zshrc/20-customization
+.config/zshrc/25-aliases
+.config/zshrc/30-autostart
+
+sent 580.98K bytes  received 6.76K bytes  1.18M bytes/sec
+total size is 557.40K  speedup is 0.95
+20250328002429 SUCCESS All files from /home/ian/.ml4w-hyprland/2.9.8.2/ to ~/dotfiles/ copied.
+
+# ------------------------------------------------------
+# Symlinks
+# ------------------------------------------------------
+
+20250328002429 SUCCESS /home/ian/dotfiles/.bashrc -> /home/ian/.bashrc
+20250328002429 SUCCESS /home/ian/dotfiles/.gtkrc-2.0 -> /home/ian/.gtkrc-2.0
+20250328002429 SUCCESS /home/ian/dotfiles/.Xresources -> /home/ian/.Xresources
+20250328002429 SUCCESS /home/ian/dotfiles/.zshrc -> /home/ian/.zshrc
+20250328002429 SUCCESS /home/ian/dotfiles/.config/bashrc -> /home/ian/.config/bashrc
+20250328002429 SUCCESS /home/ian/dotfiles/.config/dunst -> /home/ian/.config/dunst
+20250328002429 SUCCESS /home/ian/dotfiles/.config/fastfetch -> /home/ian/.config/fastfetch
+20250328002429 SUCCESS /home/ian/dotfiles/.config/gtk-3.0 -> /home/ian/.config/gtk-3.0
+20250328002429 SUCCESS /home/ian/dotfiles/.config/gtk-4.0 -> /home/ian/.config/gtk-4.0
+20250328002429 SUCCESS /home/ian/dotfiles/.config/hypr -> /home/ian/.config/hypr
+20250328002429 SUCCESS /home/ian/dotfiles/.config/kitty -> /home/ian/.config/kitty
+20250328002429 SUCCESS /home/ian/dotfiles/.config/ml4w -> /home/ian/.config/ml4w
+20250328002429 SUCCESS /home/ian/dotfiles/.config/nvim -> /home/ian/.config/nvim
+20250328002429 SUCCESS /home/ian/dotfiles/.config/nwg-dock-hyprland -> /home/ian/.config/nwg-dock-hyprland
+20250328002429 SUCCESS /home/ian/dotfiles/.config/ohmyposh -> /home/ian/.config/ohmyposh
+20250328002429 SUCCESS /home/ian/dotfiles/.config/qt6ct -> /home/ian/.config/qt6ct
+20250328002429 SUCCESS /home/ian/dotfiles/.config/rofi -> /home/ian/.config/rofi
+20250328002429 SUCCESS /home/ian/dotfiles/.config/swaync -> /home/ian/.config/swaync
+20250328002429 SUCCESS /home/ian/dotfiles/.config/vim -> /home/ian/.config/vim
+20250328002429 SUCCESS /home/ian/dotfiles/.config/wal -> /home/ian/.config/wal
+20250328002429 SUCCESS /home/ian/dotfiles/.config/waybar -> /home/ian/.config/waybar
+20250328002429 SUCCESS /home/ian/dotfiles/.config/waypaper -> /home/ian/.config/waypaper
+20250328002429 SUCCESS /home/ian/dotfiles/.config/wlogout -> /home/ian/.config/wlogout
+20250328002429 SUCCESS /home/ian/dotfiles/.config/xsettingsd -> /home/ian/.config/xsettingsd
+20250328002429 SUCCESS /home/ian/dotfiles/.config/zshrc -> /home/ian/.config/zshrc
+
+# ------------------------------------------------------
+# Pywal
+# ------------------------------------------------------
+
+20250328002431 SUCCESS Pywal and templates activated.
+
+# ------------------------------------------------------
+# Settings
+# ------------------------------------------------------
+
+20250328002431 MESSAGE Starting restore settings
+20250328002431 SUCCESS waybar_timeformat restored
+20250328002431 SUCCESS dunst_position restored
+20250328002431 SUCCESS waybar_workspaces restored
+20250328002431 SUCCESS waybar_taskbar restored
+20250328002431 SUCCESS waybar_network restored
+20250328002431 SUCCESS waybar_backlight restored
+20250328002431 SUCCESS waybar_chatgpt restored
+20250328002431 SUCCESS waybar_systray restored
+20250328002431 SUCCESS waybar_screenlock restored
+20250328002431 SUCCESS waybar_window restored
+20250328002431 SUCCESS waybar_appmenu restored
+20250328002431 SUCCESS waybar_appmenuicon restored
+20250328002431 SUCCESS hypridle_hyprlock_timeout restored
+20250328002431 SUCCESS hypridle_dpms_timeout restored
+20250328002431 SUCCESS hypridle_suspend_timeout restored
+20250328002431 SUCCESS /home/ian/.local/share/applications created
+Looking for matches…
+
+
+ 1.	   	org.freedesktop.Platform.GL.default	24.08	i	flathub	< 156.8 MB
+ 2.	   	org.freedesktop.Platform.GL.default	24.08extra	i	flathub	< 156.8 MB
+ 3.	   	org.freedesktop.Platform.VAAPI.Intel	24.08	i	flathub	< 15.0 MB
+ 4.	   	org.freedesktop.Platform.openh264	2.5.1	i	flathub	< 971.4 kB
+ 5.	   	org.gnome.Platform.Locale	47	i	flathub	< 386.9 MB (partial)
+ 6.	   	org.gnome.Platform	47	i	flathub	< 395.5 MB
+
+
+Installing 1/6…
+Installing 1/6…                        0%  0 bytes/s
+Installing 1/6… █▌                     8%
+Installing 1/6… █▌                     8%
+Installing 1/6… ██                    10%  3.5 MB/s
+Installing 1/6… ██                    10%  3.7 MB/s
+Installing 1/6… ██                    10%  4.5 MB/s
+Installing 1/6… ██▏                   11%  5.2 MB/s
+Installing 1/6… ██▏                   11%  2.8 MB/s
+Installing 1/6… ██▏                   11%  3.1 MB/s
+Installing 1/6… ██▏                   11%  3.4 MB/s
+Installing 1/6… ██▍                   12%  2.5 MB/s
+Installing 1/6… ██▍                   12%  2.6 MB/s
+Installing 1/6… ██▍                   12%  2.8 MB/s
+Installing 1/6… ██▌                   13%  2.2 MB/s  00:26
+Installing 1/6… ██▌                   13%  2.2 MB/s  00:26
+Installing 1/6… ██▌                   13%  2.2 MB/s  00:26
+Installing 1/6… ██▌                   13%  2.3 MB/s  00:26
+Installing 1/6… ██▌                   13%  1.9 MB/s  00:33
+Installing 1/6… ██▌                   13%  1.9 MB/s  00:33
+Installing 1/6… ██▌                   13%  1.9 MB/s  00:33
+Installing 1/6… ██▌                   13%  1.7 MB/s  00:40
+Installing 1/6… ██▌                   13%  1.7 MB/s  00:40
+Installing 1/6… ██▊                   14%  1.7 MB/s  00:36
+Installing 1/6… ██▊                   14%  1.5 MB/s  00:43
+Installing 1/6… ██▊                   14%  1.6 MB/s  00:43
+Installing 1/6… ██▊                   14%  1.6 MB/s  00:43
+Installing 1/6… ██▊                   14%  1.7 MB/s  00:43
+Installing 1/6… ███                   15%  1.5 MB/s  00:45
+Installing 1/6… ███                   15%  1.6 MB/s  00:45
+Installing 1/6… ███                   15%  1.6 MB/s  00:45
+Installing 1/6… ███                   15%  1.5 MB/s  00:51
+Installing 1/6… ███▏                  16%  1.5 MB/s  00:47
+Installing 1/6… ███▏                  16%  1.6 MB/s  00:47
+Installing 1/6… ███▏                  16%  1.5 MB/s  00:52
+Installing 1/6… ███▍                  17%  1.5 MB/s  00:48
+Installing 1/6… ███▍                  17%  1.6 MB/s  00:48
+Installing 1/6… ███▍                  17%  1.6 MB/s  00:48
+Installing 1/6… ███▍                  17%  1.5 MB/s  00:53
+Installing 1/6… ███▌                  18%  1.6 MB/s  00:50
+Installing 1/6… ███▌                  18%  1.7 MB/s  00:50
+Installing 1/6… ███▊                  19%  1.6 MB/s  00:51
+Installing 1/6… ███▊                  19%  1.6 MB/s  00:51
+Installing 1/6… ███▊                  19%  1.7 MB/s  00:51
+Installing 1/6… ████                  20%  1.6 MB/s  00:52
+Installing 1/6… ████▏                 21%  1.7 MB/s  00:48
+Installing 1/6… ████▏                 21%  1.8 MB/s  00:48
+Installing 1/6… ████▏                 21%  1.8 MB/s  00:48
+Installing 1/6… ████▍                 22%  1.7 MB/s  00:49
+Installing 1/6… ████▍                 22%  1.8 MB/s  00:49
+Installing 1/6… ████▍                 22%  1.8 MB/s  00:49
+Installing 1/6… ████▌                 23%  1.7 MB/s  00:50
+Installing 1/6… ████▌                 23%  1.8 MB/s  00:50
+Installing 1/6… ████▌                 23%  1.8 MB/s  00:50
+Installing 1/6… ████▊                 24%  1.7 MB/s  00:50
+Installing 1/6… ████▊                 24%  1.7 MB/s  00:50
+Installing 1/6… ████▊                 24%  1.8 MB/s  00:50
+Installing 1/6… █████                 25%  1.8 MB/s  00:48
+Installing 1/6… █████                 25%  1.7 MB/s  00:51
+Installing 1/6… █████                 25%  1.8 MB/s  00:51
+Installing 1/6… █████                 25%  1.8 MB/s  00:51
+Installing 1/6… █████▏                26%  1.7 MB/s  00:51
+Installing 1/6… █████▏                26%  1.8 MB/s  00:51
+Installing 1/6… █████▏                26%  1.8 MB/s  00:51
+Installing 1/6… █████▍                27%  1.7 MB/s  00:51
+Installing 1/6… █████▍                27%  1.7 MB/s  00:51
+Installing 1/6… █████▍                27%  1.7 MB/s  00:51
+Installing 1/6… █████▍                27%  1.8 MB/s  00:51
+Installing 1/6… █████▍                27%  1.7 MB/s  00:54
+Installing 1/6… █████▌                28%  1.7 MB/s  00:51
+Installing 1/6… █████▌                28%  1.7 MB/s  00:51
+Installing 1/6… █████▌                28%  1.7 MB/s  00:54
+Installing 1/6… █████▌                28%  1.7 MB/s  00:54
+Installing 1/6… █████▊                29%  1.7 MB/s  00:51
+Installing 1/6… █████▊                29%  1.7 MB/s  00:53
+Installing 1/6… █████▊                29%  1.7 MB/s  00:53
+Installing 1/6… ██████                30%  1.7 MB/s  00:51
+Installing 1/6… ██████                30%  1.7 MB/s  00:51
+Installing 1/6… ██████                30%  1.7 MB/s  00:53
+Installing 1/6… ██████▏               31%  1.7 MB/s  00:51
+Installing 1/6… ██████▏               31%  1.7 MB/s  00:51
+Installing 1/6… ██████▏               31%  1.7 MB/s  00:53
+Installing 1/6… ██████▍               32%  1.7 MB/s  00:51
+Installing 1/6… ██████▍               32%  1.7 MB/s  00:51
+Installing 1/6… ██████▍               32%  1.7 MB/s  00:53
+Installing 1/6… ██████▌               33%  1.7 MB/s  00:50
+Installing 1/6… ██████▌               33%  1.7 MB/s  00:50
+Installing 1/6… ██████▊               34%  1.8 MB/s  00:48
+Installing 1/6… ██████▊               34%  1.7 MB/s  00:50
+Installing 1/6… ██████▊               34%  1.7 MB/s  00:50
+Installing 1/6… ██████▊               34%  1.8 MB/s  00:50
+Installing 1/6… ███████               35%  1.7 MB/s  00:50
+Installing 1/6… ███████               35%  1.7 MB/s  00:50
+Installing 1/6… ███████               35%  1.7 MB/s  00:50
+Installing 1/6… ███████▏              36%  1.7 MB/s  00:49
+Installing 1/6… ███████▏              36%  1.7 MB/s  00:49
+Installing 1/6… ███████▏              36%  1.7 MB/s  00:49
+Installing 1/6… ███████▍              37%  1.8 MB/s  00:47
+Installing 1/6… ███████▍              37%  1.7 MB/s  00:49
+Installing 1/6… ███████▍              37%  1.7 MB/s  00:49
+Installing 1/6… ███████▍              37%  1.8 MB/s  00:49
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:48
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:48
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:48
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:50
+Installing 1/6… ███████▌              38%  1.7 MB/s  00:50
+Installing 1/6… ███████▊              39%  1.7 MB/s  00:48
+Installing 1/6… ███████▊              39%  1.7 MB/s  00:48
+Installing 1/6… ███████▊              39%  1.7 MB/s  00:50
+Installing 1/6… ███████▊              39%  1.7 MB/s  00:50
+Installing 1/6… ████████              40%  1.7 MB/s  00:48
+Installing 1/6… ████████              40%  1.7 MB/s  00:49
+Installing 1/6… ████████              40%  1.7 MB/s  00:49
+Installing 1/6… ████████▏             41%  1.7 MB/s  00:47
+Installing 1/6… ████████▏             41%  1.7 MB/s  00:48
+Installing 1/6… ████████▏             41%  1.7 MB/s  00:48
+Installing 1/6… ████████▍             42%  1.7 MB/s  00:46
+Installing 1/6… ████████▍             42%  1.7 MB/s  00:48
+Installing 1/6… ████████▌             43%  1.7 MB/s  00:46
+Installing 1/6… ████████▌             43%  1.7 MB/s  00:46
+Installing 1/6… ████████▌             43%  1.7 MB/s  00:46
+Installing 1/6… ████████▊             44%  1.7 MB/s  00:45
+Installing 1/6… ████████▊             44%  1.7 MB/s  00:45
+Installing 1/6… ████████▊             44%  1.7 MB/s  00:45
+Installing 1/6… █████████             45%  1.7 MB/s  00:45
+Installing 1/6… █████████             45%  1.7 MB/s  00:45
+Installing 1/6… █████████             45%  1.7 MB/s  00:45
+Installing 1/6… █████████             45%  1.7 MB/s  00:46
+Installing 1/6… █████████             45%  1.7 MB/s  00:46
+Installing 1/6… █████████             45%  1.7 MB/s  00:46
+Installing 1/6… █████████▏            46%  1.7 MB/s  00:44
+Installing 1/6… █████████▏            46%  1.7 MB/s  00:45
+Installing 1/6… █████████▏            46%  1.7 MB/s  00:45
+Installing 1/6… █████████▏            46%  1.7 MB/s  00:45
+Installing 1/6… █████████▏            46%  1.7 MB/s  00:46
+Installing 1/6… █████████▍            47%  1.7 MB/s  00:45
+Installing 1/6… █████████▍            47%  1.7 MB/s  00:45
+Installing 1/6… █████████▍            47%  1.6 MB/s  00:46
+Installing 1/6… █████████▍            47%  1.7 MB/s  00:46
+Installing 1/6… █████████▌            48%  1.7 MB/s  00:44
+Installing 1/6… █████████▌            48%  1.7 MB/s  00:44
+Installing 1/6… █████████▌            48%  1.7 MB/s  00:45
+Installing 1/6… █████████▊            49%  1.7 MB/s  00:43
+Installing 1/6… █████████▊            49%  1.7 MB/s  00:43
+Installing 1/6… █████████▊            49%  1.7 MB/s  00:44
+Installing 1/6… ██████████            50%  1.7 MB/s  00:43
+Installing 1/6… ██████████            50%  1.7 MB/s  00:43
+Installing 1/6… ██████████            50%  1.7 MB/s  00:44
+Installing 1/6… ██████████▏           51%  1.7 MB/s  00:42
+Installing 1/6… ██████████▏           51%  1.7 MB/s  00:42
+Installing 1/6… ██████████▍           52%  1.7 MB/s  00:40
+Installing 1/6… ██████████▍           52%  1.7 MB/s  00:41
+Installing 1/6… ██████████▍           52%  1.7 MB/s  00:41
+Installing 1/6… ██████████▌           53%  1.7 MB/s  00:39
+Installing 1/6… ██████████▌           53%  1.7 MB/s  00:40
+Installing 1/6… ██████████▊           54%  1.7 MB/s  00:39
+Installing 1/6… ██████████▊           54%  1.7 MB/s  00:39
+Installing 1/6… ██████████▊           54%  1.7 MB/s  00:40
+Installing 1/6… ███████████           55%  1.7 MB/s  00:38
+Installing 1/6… ███████████           55%  1.7 MB/s  00:38
+Installing 1/6… ███████████           55%  1.7 MB/s  00:38
+Installing 1/6… ███████████           55%  1.7 MB/s  00:39
+Installing 1/6… ███████████▏          56%  1.7 MB/s  00:37
+Installing 1/6… ███████████▏          56%  1.7 MB/s  00:37
+Installing 1/6… ███████████▏          56%  1.7 MB/s  00:38
+Installing 1/6… ███████████▏          56%  1.7 MB/s  00:38
+Installing 1/6… ███████████▏          56%  1.7 MB/s  00:38
+Installing 1/6… ███████████▍          57%  1.7 MB/s  00:37
+Installing 1/6… ███████████▍          57%  1.7 MB/s  00:37
+Installing 1/6… ███████████▍          57%  1.7 MB/s  00:37
+Installing 1/6… ███████████▍          57%  1.7 MB/s  00:37
+Installing 1/6… ███████████▌          58%  1.7 MB/s  00:36
+Installing 1/6… ███████████▌          58%  1.7 MB/s  00:36
+Installing 1/6… ███████████▌          58%  1.7 MB/s  00:36
+Installing 1/6… ███████████▊          59%  1.7 MB/s  00:36
+Installing 1/6… ███████████▊          59%  1.7 MB/s  00:36
+Installing 1/6… ███████████▊          59%  1.7 MB/s  00:36
+Installing 1/6… ████████████          60%  1.7 MB/s  00:35
+Installing 1/6… ████████████          60%  1.7 MB/s  00:35
+Installing 1/6… ████████████          60%  1.7 MB/s  00:35
+Installing 1/6… ████████████▏         61%  1.7 MB/s  00:33
+Installing 1/6… ████████████▏         61%  1.7 MB/s  00:34
+Installing 1/6… ████████████▍         62%  1.7 MB/s  00:33
+Installing 1/6… ████████████▍         62%  1.7 MB/s  00:33
+Installing 1/6… ████████████▍         62%  1.7 MB/s  00:33
+Installing 1/6… ████████████▍         62%  1.7 MB/s  00:33
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:32
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:32
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:32
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:32
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:32
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:33
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:33
+Installing 1/6… ████████████▌         63%  1.7 MB/s  00:33
+Installing 1/6… ████████████▊         64%  1.6 MB/s  00:32
+Installing 1/6… ████████████▊         64%  1.6 MB/s  00:32
+Installing 1/6… ████████████▊         64%  1.7 MB/s  00:32
+Installing 1/6… ████████████▊         64%  1.6 MB/s  00:33
+Installing 1/6… ████████████▊         64%  1.6 MB/s  00:33
+Installing 1/6… █████████████         65%  1.6 MB/s  00:31
+Installing 1/6… █████████████         65%  1.6 MB/s  00:31
+Installing 1/6… █████████████         65%  1.6 MB/s  00:32
+Installing 1/6… █████████████         65%  1.6 MB/s  00:32
+Installing 1/6… █████████████▏        66%  1.6 MB/s  00:30
+Installing 1/6… █████████████▏        66%  1.6 MB/s  00:31
+Installing 1/6… █████████████▏        66%  1.6 MB/s  00:31
+Installing 1/6… █████████████▏        66%  1.6 MB/s  00:31
+Installing 1/6… █████████████▍        67%  1.6 MB/s  00:30
+Installing 1/6… █████████████▍        67%  1.6 MB/s  00:30
+Installing 1/6… █████████████▍        67%  1.6 MB/s  00:30
+Installing 1/6… █████████████▌        68%  1.7 MB/s  00:29
+Installing 1/6… █████████████▌        68%  1.6 MB/s  00:29
+Installing 1/6… █████████████▌        68%  1.6 MB/s  00:29
+Installing 1/6… █████████████▊        69%  1.7 MB/s  00:28
+Installing 1/6… █████████████▊        69%  1.6 MB/s  00:28
+Installing 1/6… ██████████████        70%  1.7 MB/s  00:27
+Installing 1/6… ██████████████▏       71%  1.7 MB/s  00:26
+Installing 1/6… ██████████████▏       71%  1.7 MB/s  00:26
+Installing 1/6… ██████████████▏       71%  1.7 MB/s  00:26
+Installing 1/6… ██████████████▏       71%  1.7 MB/s  00:26
+Installing 1/6… ██████████████▍       72%  1.7 MB/s  00:25
+Installing 1/6… ██████████████▍       72%  1.7 MB/s  00:25
+Installing 1/6… ██████████████▍       72%  1.7 MB/s  00:25
+Installing 1/6… ██████████████▌       73%  1.7 MB/s  00:24
+Installing 1/6… ██████████████▌       73%  1.7 MB/s  00:24
+Installing 1/6… ██████████████▌       73%  1.7 MB/s  00:24
+Installing 1/6… ██████████████▊       74%  1.7 MB/s  00:23
+Installing 1/6… ██████████████▊       74%  1.7 MB/s  00:23
+Installing 1/6… ██████████████▊       74%  1.7 MB/s  00:23
+Installing 1/6… ███████████████       75%  1.7 MB/s  00:22
+Installing 1/6… ███████████████       75%  1.7 MB/s  00:22
+Installing 1/6… ███████████████       75%  1.7 MB/s  00:23
+Installing 1/6… ███████████████       75%  1.7 MB/s  00:23
+Installing 1/6… ███████████████▏      76%  1.7 MB/s  00:21
+Installing 1/6… ███████████████▏      76%  1.7 MB/s  00:22
+Installing 1/6… ███████████████▏      76%  1.7 MB/s  00:22
+Installing 1/6… ███████████████▏      76%  1.7 MB/s  00:22
+[?25h[?25hRequired runtime for com.ml4w.welcome/x86_64/master (runtime/org.gnome.Platform/x86_64/47) found in remote flathub
+
+Info: runtime org.gtk.Gtk3theme.Catppuccin-Mocha branch 3.22 is end-of-life, with reason:
+   Themes have been renamed to a new naming scheme.
+Info: applications using this runtime:
+   com.ml4w.welcome
+
+com.ml4w.welcome permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	org.freedesktop.Platform.GL.default	24.08	i	flathub	< 156.8 MB
+ 2.	   	org.freedesktop.Platform.GL.default	24.08extra	i	flathub	< 156.8 MB
+ 3.	   	org.freedesktop.Platform.VAAPI.Intel	24.08	i	flathub	< 15.0 MB
+ 4.	   	org.freedesktop.Platform.openh264	2.5.1	i	flathub	< 971.4 kB
+ 5.	   	org.gnome.Platform.Locale	47	i	flathub	< 386.9 MB (partial)
+ 6.	   	org.gtk.Gtk3theme.Catppuccin-Mocha	3.22	i	flathub	< 110.3 kB
+ 7.	   	org.gnome.Platform	47	i	flathub	< 395.5 MB
+ 8.	   	com.ml4w.welcome	master	i	welcome-origin	0 bytes
+
+
+Installing 1/8…
+Installing 1/8…                        0%  0 bytes/s
+Installing 1/8… █▌                     8%
+Installing 1/8… █▌                     8%
+Installing 1/8… ██                    10%  3.5 MB/s
+Installing 1/8… ██                    10%  3.9 MB/s
+Installing 1/8… ██                    10%  4.3 MB/s
+Installing 1/8… ██                    10%  4.9 MB/s
+Installing 1/8… ██▏                   11%  2.6 MB/s
+Installing 1/8… ██▏                   11%  2.8 MB/s
+Installing 1/8… ██▏                   11%  2.9 MB/s
+Installing 1/8… ██▏                   11%  2.1 MB/s
+[?25hRequired runtime for com.ml4w.settings/x86_64/master (runtime/org.gnome.Platform/x86_64/47) found in remote flathub
+
+Info: runtime org.gtk.Gtk3theme.Catppuccin-Mocha branch 3.22 is end-of-life, with reason:
+   Themes have been renamed to a new naming scheme.
+Info: applications using this runtime:
+   com.ml4w.settings
+
+com.ml4w.settings permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	org.freedesktop.Platform.GL.default	24.08	i	flathub	< 156.8 MB
+ 2.	   	org.freedesktop.Platform.GL.default	24.08extra	i	flathub	< 156.8 MB
+ 3.	   	org.freedesktop.Platform.VAAPI.Intel	24.08	i	flathub	< 15.0 MB
+ 4.	   	org.freedesktop.Platform.openh264	2.5.1	i	flathub	< 971.4 kB
+ 5.	   	org.gnome.Platform.Locale	47	i	flathub	< 386.9 MB (partial)
+ 6.	   	org.gtk.Gtk3theme.Catppuccin-Mocha	3.22	i	flathub	< 110.3 kB
+ 7.	   	org.gnome.Platform	47	i	flathub	< 395.5 MB
+ 8.	   	com.ml4w.settings	master	i	settings-origin	0 bytes
+
+
+Installing 1/8…
+Installing 1/8…                        0%  0 bytes/s
+[?25hRequired runtime for com.ml4w.sidebar/x86_64/master (runtime/org.gnome.Platform/x86_64/47) found in remote flathub
+
+Info: runtime org.gtk.Gtk3theme.Catppuccin-Mocha branch 3.22 is end-of-life, with reason:
+   Themes have been renamed to a new naming scheme.
+Info: applications using this runtime:
+   com.ml4w.sidebar
+
+com.ml4w.sidebar permissions:
+    ipc	network	fallback-x11	wayland
+    x11	dri	file access [1]	dbus access [2]
+
+    [1] home
+    [2] org.freedesktop.Flatpak
+
+
+ 1.	   	org.freedesktop.Platform.GL.default	24.08	i	flathub	< 156.8 MB
+ 2.	   	org.freedesktop.Platform.GL.default	24.08extra	i	flathub	< 156.8 MB
+ 3.	   	org.freedesktop.Platform.VAAPI.Intel	24.08	i	flathub	< 15.0 MB
+ 4.	   	org.freedesktop.Platform.openh264	2.5.1	i	flathub	< 971.4 kB
+ 5.	   	org.gnome.Platform.Locale	47	i	flathub	< 386.9 MB (partial)
+ 6.	   	org.gtk.Gtk3theme.Catppuccin-Mocha	3.22	i	flathub	< 110.3 kB
+ 7.	   	org.gnome.Platform	47	i	flathub	< 395.5 MB
+ 8.	   	com.ml4w.sidebar	master	i	sidebar-origin	0 bytes
+
+
+Installing 1/8…
+[?25h[?25h
+# ------------------------------------------------------
+# Run Hyprland Settings App
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Finalizing
+# ------------------------------------------------------
+
+20250328002549 SUCCESS platform.sh with arch created
+20250328002549 SUCCESS Wallpaper cache file created
+20250328002549 SUCCESS Wallpaper rasi file created
+20250328002549 MESSAGE NetworkManager.service already running.
+20250328002549 MESSAGE bluetooth.service already running.
+20250328002549 SUCCESS Clean up done
+
+# ------------------------------------------------------
+# Post Script
+# ------------------------------------------------------
+
+
+# ------------------------------------------------------
+# Reboot
+# ------------------------------------------------------
+
